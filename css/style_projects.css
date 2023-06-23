@@ -217,7 +217,7 @@
 }
 
 .modal_content_title {
-  color: #000;
+  color: var(--text-white);
   font-size: 47px;
   font-family: Montserrat;
   font-weight: 300;
@@ -225,7 +225,7 @@
   margin-top: 60px;
 }
 .modal_content_name {
-  color: #000;
+  color: var(--text-white);
   font-size: 25px;
   font-family: Montserrat;
   font-weight: 300;

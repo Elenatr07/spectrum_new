@@ -141,7 +141,7 @@ body {
 }
 
 .link_contact-btn::before {
-    background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1), rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1));
+    background: linear-gradient(75deg, rgba(247, 62, 148, 1),rgba(34, 220, 217, 1) );
     border-radius: 34px;
     z-index: -2;
     position: absolute;
@@ -153,7 +153,7 @@ body {
 }
 
 .link_contact-btn:hover::before {
-    background: linear-gradient(75deg, rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1), rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1));
+    background: linear-gradient(75deg, rgba(34, 220, 217, 1), rgba(247, 62, 148, 1));
 }
 
 .general {
@@ -406,7 +406,7 @@ body {
     font-size: 17px;
     line-height: 21px;
     text-align: center;
-    height: 42px;
+    height: 41px;
     border-radius: 45px;
     background: var(--bg-dark)
         /* #0C0C2D*/
@@ -426,7 +426,7 @@ body {
     position: absolute;
     content: "";
     width: 122px;
-    height: 45px;
+    height: 44px;
     right: -4px;
     top: -3px;
 

@@ -270,7 +270,7 @@ margin-bottom: 85px;
 }
 .slider_button {
 width: 174px;
-height: 34px;
+height: 41px;
 border-radius: 45px;
 background: var(--bg-dark-light);
 font-family: 'Montserrat';
@@ -288,21 +288,21 @@ color: var(--text-white);
 
 }
 .slider_button::before {
-  background: linear-gradient(35deg, #F73E94, #22DCD9);
+  background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(34, 220, 217, 1));
   border-radius: 34px;
   z-index: -1;
   position: absolute;
   content: "";
   width: 178px;
-  height: 38px;
-  top: -4px;
-  bottom: -4px;
-  left: -4px;
-  right: -4px;
+  height: 45px;
+  top: -3.5px;
+  bottom: 3.5px;
+  left: -3px;
+  right: -3px;
 }
 
 .slider_button:hover::before {
-  background: linear-gradient(75deg, rgba(84, 86, 171, 1), rgba(33, 157, 222, 1), rgba(34, 220, 217, 1), rgba(247, 62, 148, 1), rgba(203, 50, 143, 1), rgba(151, 35, 138, 1));
+  background: linear-gradient(75deg, rgba(34, 220, 217, 1), rgba(247, 62, 148, 1));
 }
 .itc_slider_name {
   font-family: 'Montserrat';
