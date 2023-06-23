@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/style_general.css">
+    <link rel="stylesheet" href="css/itc-slider.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style_projects.css">
+    <link rel="stylesheet" href="css/modal.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Oswald:wght@200;500;700&display=swap"
+      rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <title>SpectrumWise</title>
+</head>
+<body>
+
+    <div id="nav_shadow"></div>
+    <div class="container">
+      <!-- Navigation bar -->
+      <header class="header_page">
+        <a href="index.html" class="header_logo"></a>
+  
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu" id="menu_opener"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+          <ul class="menu">
+            <li class="dropdown" id="id_link_dropdown">
+                <a href="#" id="dropbtn" class="link">English</a>
+                <div class="dropdown-content">
+                  <a href="#" class="link">Русский</a>
+                </div>
+            </li>
+            <li class="link_lang"><a href="" class="link">Русский</a></li>
+            <li id="id_link_projects"><a href="#projects" class="link">Projects</a> </li>
+            <li class="link_services" id="id_link_services"><a href="#services" class="link">Services</a> </li>
+            <li id="id_link_designs_to_by"><a href="#designs_to_buy" class="link">Designs to Buy</a> </li>
+            <li class="lighting" id="toggle"><a href="#" class="link"></a></li>
+            <li class="menu_link_contact"><a href="#contact" class="link_link">Contact Us</a></li>
+          </ul>
+          <div class="link_contact"><a href="#contact" class="link_link">Contact Us</a></div>
+          
+        </nav>
+  
+      </header>
+      <div class="general_projects">
+        <div class="general_projects_block">
+          <div class="general_slogan_projects">
+              <h2 class="slogan">SEE OUR FEATURED <span class="creatives">PROJECTS</span> </h2>
+              <div class="filter">
+                <button class="button_projects button_type_all active loadbtn" data-filter="all">All designs</button>
+                <button class="button_projects button_type_logo" data-filter="logo">Logo Design </button>
+                <button class="button_projects button_type_packaging" data-filter="packaging">Packaging</button>
+                <button class="button_projects button_type_landing" data-filter="landing">Landing Page</button>
+                <button class="button_projects button_type_web" data-filter="web">Web Design</button>
+                <button class="button_projects button_type_other" data-filter="other">Other</button>
+            </div>
+          </div>
+          <div class="projects_illustration"><img src="img/Illustration_projects.svg" alt=""></div>
+        </div>
+        
+      </div>
+      <main class="content">
+        <div class="container_cards">
+          
+          <a href="" data-modal="#modal" class="modal__trigger card logo all ">
+            <p class="card_data">Logo Design</p> 
+            <p class="card_name">Hermetica</p>
+            <img src="img_projects/Hermetica_Logo_Black1.svg" alt="">
+          </a>
+          <a href="" data-modal="#modal1" class="modal__trigger card web all"> 
+            <p class="card_data">Web Design</p> 
+            <p class="card_name">Hermetica</p>
+            <img src="img_projects/Hermetica_Website.svg" alt=""> 
+          </a>
+          <a href="" data-modal="#modal2" class="modal__trigger card logo all">  
+            <p class="card_data_black">Logo Design </p> 
+            <p class="card_name_black">FAM!</p>
+            <img src="img_projects/fam_logo.svg" alt="">
+          </a>
+          <a href="" data-modal="#modal3" class="modal__trigger card logo all">
+            <p class="card_data_black">Logo Design </p> 
+            <p class="card_name_black">Kokomo</p>
+            <img src="img_projects/kokomo_logo.svg" alt="">
+          </a>
+          <a href="" data-modal="#modal4" class="modal__trigger card logo all">
+              <p class="card_data">Logo Design</p> 
+              <p class="card_name">Energotrans</p>
+              <img src="img_projects/energotrans_logo.svg" alt="">
+          </a>
+            <!--<div class="card logo all"><img src="img_projects/energotrans_logo.svg" alt=""></div>-->
+            <!--<div class="card logo _hidden all"><img src="img_projects/energotrans_logo.svg" alt=""></div>-->
+            <!--<div class="card packaging _hidden all"><img src="img_projects/energotrans_logo.svg" alt=""></div>-->
+            <!--<div class="card landing all">Landing Page</div>-->
+            <!--<div class="card other all">Other</div>-->  
+            
+              
+        </div>
+        <div class="button">
+          <button class="load_btn" id="load_btn">See More</button>
+        </div>
+    </main>
+
+<!--Modal-->
+    <div id="modal" class="modal modal__bg" role="dialog" aria-hidden="true">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <h1>Modal</h1>
+          <p>Church-key American Apparel trust fund, cardigan mlkshk small batch Godard mustache pickled bespoke meh seitan. Wes Anderson farm-to-table vegan, kitsch Carles 8-bit gastropub paleo YOLO jean shorts health goth lo-fi. Normcore chambray locavore Banksy, YOLO meditation master cleanse readymade Bushwick.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi accusantium esse maiores. Molestias placeat voluptatibus debitis soluta suscipit ea aut eveniet. Facilis ea praesentium adipisci, sapiente maxime architecto saepe error voluptates accusantium esse exercitationem deserunt fugiat veritatis beatae placeat assumenda quod quis labore vero vel laudantium nihil cupiditate delectus! Alias porro iste adipisci recusandae ab voluptates a neque libero sapiente perferendis, harum aspernatur numquam velit pariatur veritatis sit enim? Deserunt obcaecati sit molestias, expedita vero fugiat impedit ipsam iste dolores, animi dolorem, id perspiciatis quasi. Voluptas dignissimos odio unde ratione maiores. Excepturi placeat iste eveniet ipsa sit natus ab nostrum omnis culpa ipsum earum at dolor provident recusandae, officiis velit eligendi ullam! Nulla totam culpa atque, vel quam sint tempore in laboriosam aliquid soluta neque. Nostrum odio, iure error inventore ipsam quibusdam praesentium expedita delectus ducimus aspernatur saepe minus unde minima vitae doloribus corporis dignissimos impedit laboriosam molestiae aliquid culpa cupiditate nemo. Repellat accusantium voluptatum provident magni. Modi expedita autem facilis velit accusantium, consequuntur qui alias aut sint eum tenetur aliquam ipsam, et ipsum reprehenderit quisquam nobis ea fugiat adipisci, dolores labore quis eaque sunt? Soluta, sint ea eius temporibus ullam, aliquam beatae accusantium architecto labore alias, eveniet assumenda recusandae dolorem et eaque saepe? Modi dignissimos vero in consequatur ducimus provident officiis! Autem doloribus eos quidem ipsum suscipit animi, numquam, excepturi eligendi eius facilis, accusamus fugit a magnam architecto aliquid officiis repellendus nemo. Ducimus, modi. Adipisci veritatis, voluptatibus illo corrupti molestias labore maxime perferendis dolorem eos, magnam velit corporis facilis. Modi dolore dolores aliquid fugiat eius laudantium quod voluptates ex repellat corrupti expedita deserunt, asperiores eligendi similique labore. Temporibus quis iste maxime rerum mollitia saepe eius id! Nostrum ut, mollitia porro dicta fugiat inventore suscipit a harum incidunt vero earum rem ipsa labore quo unde corrupti dolorum repellat sit adipisci excepturi, sint consequatur at nulla. Ab eius ea commodi quae quos minus aspernatur quod numquam adipisci dolor accusantium suscipit, tempore dicta fugiat ipsam, consectetur natus! Esse id, optio animi perspiciatis enim quidem vitae porro nulla odio sequi saepe vel ipsa qui quos. Commodi facere delectus eaque quas est! Magni, qui reprehenderit consequatur adipisci a amet minima voluptatibus id explicabo laborum facilis nostrum distinctio alias quam corporis debitis dignissimos sapiente hic tempore provident quas! Vel non quibusdam repudiandae ipsam, rem quos facilis neque consectetur aliquid aliquam enim dolorum alias quo quisquam soluta a ea nostrum mollitia dolorem natus dolore sed error? Optio, quasi, provident ducimus fugiat beatae commodi voluptas, obcaecati sequi doloremque expedita minus. Vitae quae impedit minus. Ratione asperiores soluta assumenda libero odio quo rem culpa, amet quasi? Repellat totam cupiditate nobis. Similique ullam fugit natus possimus dolore at laboriosam officiis sapiente, tempora esse tempore excepturi nisi inventore adipisci repudiandae commodi incidunt voluptatum quia! Repellendus quo nesciunt blanditiis, nulla soluta temporibus debitis. Magnam ab molestiae quam sapiente at perferendis cumque soluta accusantium! Inventore laudantium fugit veritatis, commodi laboriosam odit? Minus eligendi aut nostrum recusandae nemo consequatur vero molestiae sit est cumque? Expedita suscipit possimus eos dolor labore dicta fugit vitae et atque. Aliquam dolor aut, tempora quia iste enim numquam laudantium assumenda praesentium, excepturi repellat repudiandae doloremque soluta pariatur. Molestias, ullam dolore doloribus sapiente voluptatibus vitae! Voluptas reiciendis numquam illum, inventore odio, eligendi id quos voluptate voluptatem pariatur explicabo magnam quia soluta est sit at error vero dolorum aut eveniet et quae accusantium! Et, magni ipsa. Repellendus, sunt earum impedit dicta doloribus nihil. Voluptatibus enim vel molestiae voluptate assumenda nam magnam obcaecati quisquam quo minus repellat dolorem non, cum eaque doloribus necessitatibus natus officia esse repellendus earum voluptas beatae amet sunt eveniet. Nostrum dolore libero veniam dolores odio fugit aliquid amet rem, id consectetur voluptatibus omnis assumenda veritatis optio quasi sequi tempora soluta ipsa similique maxime! Voluptatum quis aperiam rem illo delectus repudiandae ab maxime adipisci totam, corrupti dignissimos. Suscipit, doloribus, accusamus officia mollitia amet illo aperiam quis ex, minus sunt excepturi. Repellendus similique quos id voluptates, cupiditate culpa sint minima non officia corrupti deleniti? Doloremque sequi ratione minus eum nisi nam exercitationem voluptas minima eaque numquam optio, labore reiciendis. Nemo saepe animi, ipsam illum, aliquid consectetur aperiam hic sunt explicabo repellat accusamus amet suscipit maxime qui iste cumque praesentium laborum natus inventore dolores obcaecati dignissimos sint veniam? Eum deleniti ipsa doloremque debitis molestias numquam in nam, adipisci quidem delectus exercitationem molestiae non laboriosam tempora reprehenderit? Maxime aliquid sunt, fugiat ratione itaque hic rerum et quod corporis culpa eaque ipsa in sint? Nesciunt, asperiores tempore. Molestias ipsa voluptate expedita impedit ad excepturi fugit omnis natus hic, eum minus recusandae libero quaerat quisquam, asperiores sapiente repellendus! Quae est laborum odit magnam enim atque, perspiciatis ducimus dolorem dolore accusamus illum adipisci natus suscipit, earum cupiditate animi debitis assumenda corrupti similique dicta sequi! Totam quaerat tenetur recusandae earum temporibus eos ipsa sapiente aspernatur, voluptatibus quos quod voluptatum quia magnam soluta ipsum possimus corrupti assumenda doloribus debitis error perferendis deserunt numquam pariatur? Blanditiis reiciendis error reprehenderit quia, temporibus maiores dolorem et itaque voluptate, ipsum corporis incidunt nemo asperiores corrupti sit excepturi obcaecati esse distinctio rerum. Iste voluptate ex minima illum suscipit, eveniet perspiciatis iure cum dolor repudiandae quod labore possimus ratione ipsa, odio debitis totam dignissimos sequi provident incidunt. Beatae quis totam, mollitia eligendi, architecto, ut quibusdam commodi iure omnis aut quasi voluptatum deleniti excepturi reiciendis soluta quos provident deserunt consequatur. Provident, necessitatibus inventore. Expedita autem necessitatibus minima, ut eligendi fugiat laboriosam? Nostrum ullam, porro facilis dolores minima, dignissimos pariatur architecto laboriosam accusantium veniam dolor animi doloremque quia debitis aperiam a illo inventore fugit voluptates voluptatem odit. Reiciendis enim adipisci natus distinctio ipsam, fugit quos quas laudantium, consectetur quo, quisquam veniam. Dolorem laudantium id officiis hic sed, tempore odio quod ipsa ducimus labore obcaecati temporibus sequi eligendi accusantium dolore dignissimos incidunt. Ipsa numquam commodi culpa atque iusto nam! Porro deserunt, provident eos ut, odio voluptatem quibusdam molestiae repudiandae saepe ab maxime expedita, in temporibus. Alias porro nihil nisi iste libero assumenda, quas voluptatibus eveniet suscipit maxime facere deserunt recusandae inventore ipsam ut animi nesciunt possimus temporibus. Doloremque enim voluptatibus quis, officia earum dolore.</p>
+          
+<!-- modal close button -->
+          <a href="" class="modal__close demo-close">
+            <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+  <!--Modal1-->
+    <div id="modal1" class="modal modal__bg" role="dialog" aria-hidden="true">
+      <div class="modal__dialog">
+        <div class="modal__content">
+          <h1 class="modal_content_title">Hermetica</h1>
+          <h3 class="modal_content_name">Web Design</h3>
+          <div class="modal_info"><img src="img_projects/hermetica_1.svg" alt=""></div>
+          <div class="modal_info"><img src="img_projects/hermetica_2.svg" alt=""></div>
+          <div class="modal_info"><img src="img_projects/Hermetica_Design_3.svg" alt=""></div>
+          
+<!-- modal close button -->
+          <a href="" class="modal__close demo-close">
+            <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+<!--Modal2-->
+<div id="modal2" class="modal modal__bg" role="dialog" aria-hidden="true">
+  <div class="modal__dialog">
+    <div class="modal__content">
+      <h1>Modal</h1>
+      <p>Church-key American Apparel trust fund, cardigan mlkshk small batch Godard mustache pickled bespoke meh seitan. Wes Anderson farm-to-table vegan, kitsch Carles 8-bit gastropub paleo YOLO jean shorts health goth lo-fi. Normcore chambray locavore Banksy, YOLO meditation master cleanse readymade Bushwick.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi accusantium esse maiores. Molestias placeat voluptatibus debitis soluta suscipit ea aut eveniet. Facilis ea praesentium adipisci, sapiente maxime architecto saepe error voluptates accusantium esse exercitationem deserunt fugiat veritatis beatae placeat assumenda quod quis labore vero vel laudantium nihil cupiditate delectus! Alias porro iste adipisci recusandae ab voluptates a neque libero sapiente perferendis, harum aspernatur numquam velit pariatur veritatis sit enim? Deserunt obcaecati sit molestias, expedita vero fugiat impedit ipsam iste dolores, animi dolorem, id perspiciatis quasi. Voluptas dignissimos odio unde ratione maiores. Excepturi placeat iste eveniet ipsa sit natus ab nostrum omnis culpa ipsum earum at dolor provident recusandae, officiis velit eligendi ullam! Nulla totam culpa atque, vel quam sint tempore in laboriosam aliquid soluta neque. Nostrum odio, iure error inventore ipsam quibusdam praesentium expedita delectus ducimus aspernatur saepe minus unde minima vitae doloribus corporis dignissimos impedit laboriosam molestiae aliquid culpa cupiditate nemo. Repellat accusantium voluptatum provident magni. Modi expedita autem facilis velit accusantium, consequuntur qui alias aut sint eum tenetur aliquam ipsam, et ipsum reprehenderit quisquam nobis ea fugiat adipisci, dolores labore quis eaque sunt? Soluta, sint ea eius temporibus ullam, aliquam beatae accusantium architecto labore alias, eveniet assumenda recusandae dolorem et eaque saepe? Modi dignissimos vero in consequatur ducimus provident officiis! Autem doloribus eos quidem ipsum suscipit animi, numquam, excepturi eligendi eius facilis, accusamus fugit a magnam architecto aliquid officiis repellendus nemo. Ducimus, modi. Adipisci veritatis, voluptatibus illo corrupti molestias labore maxime perferendis dolorem eos, magnam velit corporis facilis. Modi dolore dolores aliquid fugiat eius laudantium quod voluptates ex repellat corrupti expedita deserunt, asperiores eligendi similique labore. Temporibus quis iste maxime rerum mollitia saepe eius id! Nostrum ut, mollitia porro dicta fugiat inventore suscipit a harum incidunt vero earum rem ipsa labore quo unde corrupti dolorum repellat sit adipisci excepturi, sint consequatur at nulla. Ab eius ea commodi quae quos minus aspernatur quod numquam adipisci dolor accusantium suscipit, tempore dicta fugiat ipsam, consectetur natus! Esse id, optio animi perspiciatis enim quidem vitae porro nulla odio sequi saepe vel ipsa qui quos. Commodi facere delectus eaque quas est! Magni, qui reprehenderit consequatur adipisci a amet minima voluptatibus id explicabo laborum facilis nostrum distinctio alias quam corporis debitis dignissimos sapiente hic tempore provident quas! Vel non quibusdam repudiandae ipsam, rem quos facilis neque consectetur aliquid aliquam enim dolorum alias quo quisquam soluta a ea nostrum mollitia dolorem natus dolore sed error? Optio, quasi, provident ducimus fugiat beatae commodi voluptas, obcaecati sequi doloremque expedita minus. Vitae quae impedit minus. Ratione asperiores soluta assumenda libero odio quo rem culpa, amet quasi? Repellat totam cupiditate nobis. Similique ullam fugit natus possimus dolore at laboriosam officiis sapiente, tempora esse tempore excepturi nisi inventore adipisci repudiandae commodi incidunt voluptatum quia! Repellendus quo nesciunt blanditiis, nulla soluta temporibus debitis. Magnam ab molestiae quam sapiente at perferendis cumque soluta accusantium! Inventore laudantium fugit veritatis, commodi laboriosam odit? Minus eligendi aut nostrum recusandae nemo consequatur vero molestiae sit est cumque? Expedita suscipit possimus eos dolor labore dicta fugit vitae et atque. Aliquam dolor aut, tempora quia iste enim numquam laudantium assumenda praesentium, excepturi repellat repudiandae doloremque soluta pariatur. Molestias, ullam dolore doloribus sapiente voluptatibus vitae! Voluptas reiciendis numquam illum, inventore odio, eligendi id quos voluptate voluptatem pariatur explicabo magnam quia soluta est sit at error vero dolorum aut eveniet et quae accusantium! Et, magni ipsa. Repellendus, sunt earum impedit dicta doloribus nihil. Voluptatibus enim vel molestiae voluptate assumenda nam magnam obcaecati quisquam quo minus repellat dolorem non, cum eaque doloribus necessitatibus natus officia esse repellendus earum voluptas beatae amet sunt eveniet. Nostrum dolore libero veniam dolores odio fugit aliquid amet rem, id consectetur voluptatibus omnis assumenda veritatis optio quasi sequi tempora soluta ipsa similique maxime! Voluptatum quis aperiam rem illo delectus repudiandae ab maxime adipisci totam, corrupti dignissimos. Suscipit, doloribus, accusamus officia mollitia amet illo aperiam quis ex, minus sunt excepturi. Repellendus similique quos id voluptates, cupiditate culpa sint minima non officia corrupti deleniti? Doloremque sequi ratione minus eum nisi nam exercitationem voluptas minima eaque numquam optio, labore reiciendis. Nemo saepe animi, ipsam illum, aliquid consectetur aperiam hic sunt explicabo repellat accusamus amet suscipit maxime qui iste cumque praesentium laborum natus inventore dolores obcaecati dignissimos sint veniam? Eum deleniti ipsa doloremque debitis molestias numquam in nam, adipisci quidem delectus exercitationem molestiae non laboriosam tempora reprehenderit? Maxime aliquid sunt, fugiat ratione itaque hic rerum et quod corporis culpa eaque ipsa in sint? Nesciunt, asperiores tempore. Molestias ipsa voluptate expedita impedit ad excepturi fugit omnis natus hic, eum minus recusandae libero quaerat quisquam, asperiores sapiente repellendus! Quae est laborum odit magnam enim atque, perspiciatis ducimus dolorem dolore accusamus illum adipisci natus suscipit, earum cupiditate animi debitis assumenda corrupti similique dicta sequi! Totam quaerat tenetur recusandae earum temporibus eos ipsa sapiente aspernatur, voluptatibus quos quod voluptatum quia magnam soluta ipsum possimus corrupti assumenda doloribus debitis error perferendis deserunt numquam pariatur? Blanditiis reiciendis error reprehenderit quia, temporibus maiores dolorem et itaque voluptate, ipsum corporis incidunt nemo asperiores corrupti sit excepturi obcaecati esse distinctio rerum. Iste voluptate ex minima illum suscipit, eveniet perspiciatis iure cum dolor repudiandae quod labore possimus ratione ipsa, odio debitis totam dignissimos sequi provident incidunt. Beatae quis totam, mollitia eligendi, architecto, ut quibusdam commodi iure omnis aut quasi voluptatum deleniti excepturi reiciendis soluta quos provident deserunt consequatur. Provident, necessitatibus inventore. Expedita autem necessitatibus minima, ut eligendi fugiat laboriosam? Nostrum ullam, porro facilis dolores minima, dignissimos pariatur architecto laboriosam accusantium veniam dolor animi doloremque quia debitis aperiam a illo inventore fugit voluptates voluptatem odit. Reiciendis enim adipisci natus distinctio ipsam, fugit quos quas laudantium, consectetur quo, quisquam veniam. Dolorem laudantium id officiis hic sed, tempore odio quod ipsa ducimus labore obcaecati temporibus sequi eligendi accusantium dolore dignissimos incidunt. Ipsa numquam commodi culpa atque iusto nam! Porro deserunt, provident eos ut, odio voluptatem quibusdam molestiae repudiandae saepe ab maxime expedita, in temporibus. Alias porro nihil nisi iste libero assumenda, quas voluptatibus eveniet suscipit maxime facere deserunt recusandae inventore ipsam ut animi nesciunt possimus temporibus. Doloremque enim voluptatibus quis, officia earum dolore.</p>
+      
+<!-- modal close button -->
+      <a href="" class="modal__close demo-close">
+        <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+<!--Modal3-->
+<div id="modal3" class="modal modal__bg" role="dialog" aria-hidden="true">
+  <div class="modal__dialog">
+    <div class="modal__content">
+      <h1>Modal</h1>
+      <p>Church-key American Apparel trust fund, cardigan mlkshk small batch Godard mustache pickled bespoke meh seitan. Wes Anderson farm-to-table vegan, kitsch Carles 8-bit gastropub paleo YOLO jean shorts health goth lo-fi. Normcore chambray locavore Banksy, YOLO meditation master cleanse readymade Bushwick.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi accusantium esse maiores. Molestias placeat voluptatibus debitis soluta suscipit ea aut eveniet. Facilis ea praesentium adipisci, sapiente maxime architecto saepe error voluptates accusantium esse exercitationem deserunt fugiat veritatis beatae placeat assumenda quod quis labore vero vel laudantium nihil cupiditate delectus! Alias porro iste adipisci recusandae ab voluptates a neque libero sapiente perferendis, harum aspernatur numquam velit pariatur veritatis sit enim? Deserunt obcaecati sit molestias, expedita vero fugiat impedit ipsam iste dolores, animi dolorem, id perspiciatis quasi. Voluptas dignissimos odio unde ratione maiores. Excepturi placeat iste eveniet ipsa sit natus ab nostrum omnis culpa ipsum earum at dolor provident recusandae, officiis velit eligendi ullam! Nulla totam culpa atque, vel quam sint tempore in laboriosam aliquid soluta neque. Nostrum odio, iure error inventore ipsam quibusdam praesentium expedita delectus ducimus aspernatur saepe minus unde minima vitae doloribus corporis dignissimos impedit laboriosam molestiae aliquid culpa cupiditate nemo. Repellat accusantium voluptatum provident magni. Modi expedita autem facilis velit accusantium, consequuntur qui alias aut sint eum tenetur aliquam ipsam, et ipsum reprehenderit quisquam nobis ea fugiat adipisci, dolores labore quis eaque sunt? Soluta, sint ea eius temporibus ullam, aliquam beatae accusantium architecto labore alias, eveniet assumenda recusandae dolorem et eaque saepe? Modi dignissimos vero in consequatur ducimus provident officiis! Autem doloribus eos quidem ipsum suscipit animi, numquam, excepturi eligendi eius facilis, accusamus fugit a magnam architecto aliquid officiis repellendus nemo. Ducimus, modi. Adipisci veritatis, voluptatibus illo corrupti molestias labore maxime perferendis dolorem eos, magnam velit corporis facilis. Modi dolore dolores aliquid fugiat eius laudantium quod voluptates ex repellat corrupti expedita deserunt, asperiores eligendi similique labore. Temporibus quis iste maxime rerum mollitia saepe eius id! Nostrum ut, mollitia porro dicta fugiat inventore suscipit a harum incidunt vero earum rem ipsa labore quo unde corrupti dolorum repellat sit adipisci excepturi, sint consequatur at nulla. Ab eius ea commodi quae quos minus aspernatur quod numquam adipisci dolor accusantium suscipit, tempore dicta fugiat ipsam, consectetur natus! Esse id, optio animi perspiciatis enim quidem vitae porro nulla odio sequi saepe vel ipsa qui quos. Commodi facere delectus eaque quas est! Magni, qui reprehenderit consequatur adipisci a amet minima voluptatibus id explicabo laborum facilis nostrum distinctio alias quam corporis debitis dignissimos sapiente hic tempore provident quas! Vel non quibusdam repudiandae ipsam, rem quos facilis neque consectetur aliquid aliquam enim dolorum alias quo quisquam soluta a ea nostrum mollitia dolorem natus dolore sed error? Optio, quasi, provident ducimus fugiat beatae commodi voluptas, obcaecati sequi doloremque expedita minus. Vitae quae impedit minus. Ratione asperiores soluta assumenda libero odio quo rem culpa, amet quasi? Repellat totam cupiditate nobis. Similique ullam fugit natus possimus dolore at laboriosam officiis sapiente, tempora esse tempore excepturi nisi inventore adipisci repudiandae commodi incidunt voluptatum quia! Repellendus quo nesciunt blanditiis, nulla soluta temporibus debitis. Magnam ab molestiae quam sapiente at perferendis cumque soluta accusantium! Inventore laudantium fugit veritatis, commodi laboriosam odit? Minus eligendi aut nostrum recusandae nemo consequatur vero molestiae sit est cumque? Expedita suscipit possimus eos dolor labore dicta fugit vitae et atque. Aliquam dolor aut, tempora quia iste enim numquam laudantium assumenda praesentium, excepturi repellat repudiandae doloremque soluta pariatur. Molestias, ullam dolore doloribus sapiente voluptatibus vitae! Voluptas reiciendis numquam illum, inventore odio, eligendi id quos voluptate voluptatem pariatur explicabo magnam quia soluta est sit at error vero dolorum aut eveniet et quae accusantium! Et, magni ipsa. Repellendus, sunt earum impedit dicta doloribus nihil. Voluptatibus enim vel molestiae voluptate assumenda nam magnam obcaecati quisquam quo minus repellat dolorem non, cum eaque doloribus necessitatibus natus officia esse repellendus earum voluptas beatae amet sunt eveniet. Nostrum dolore libero veniam dolores odio fugit aliquid amet rem, id consectetur voluptatibus omnis assumenda veritatis optio quasi sequi tempora soluta ipsa similique maxime! Voluptatum quis aperiam rem illo delectus repudiandae ab maxime adipisci totam, corrupti dignissimos. Suscipit, doloribus, accusamus officia mollitia amet illo aperiam quis ex, minus sunt excepturi. Repellendus similique quos id voluptates, cupiditate culpa sint minima non officia corrupti deleniti? Doloremque sequi ratione minus eum nisi nam exercitationem voluptas minima eaque numquam optio, labore reiciendis. Nemo saepe animi, ipsam illum, aliquid consectetur aperiam hic sunt explicabo repellat accusamus amet suscipit maxime qui iste cumque praesentium laborum natus inventore dolores obcaecati dignissimos sint veniam? Eum deleniti ipsa doloremque debitis molestias numquam in nam, adipisci quidem delectus exercitationem molestiae non laboriosam tempora reprehenderit? Maxime aliquid sunt, fugiat ratione itaque hic rerum et quod corporis culpa eaque ipsa in sint? Nesciunt, asperiores tempore. Molestias ipsa voluptate expedita impedit ad excepturi fugit omnis natus hic, eum minus recusandae libero quaerat quisquam, asperiores sapiente repellendus! Quae est laborum odit magnam enim atque, perspiciatis ducimus dolorem dolore accusamus illum adipisci natus suscipit, earum cupiditate animi debitis assumenda corrupti similique dicta sequi! Totam quaerat tenetur recusandae earum temporibus eos ipsa sapiente aspernatur, voluptatibus quos quod voluptatum quia magnam soluta ipsum possimus corrupti assumenda doloribus debitis error perferendis deserunt numquam pariatur? Blanditiis reiciendis error reprehenderit quia, temporibus maiores dolorem et itaque voluptate, ipsum corporis incidunt nemo asperiores corrupti sit excepturi obcaecati esse distinctio rerum. Iste voluptate ex minima illum suscipit, eveniet perspiciatis iure cum dolor repudiandae quod labore possimus ratione ipsa, odio debitis totam dignissimos sequi provident incidunt. Beatae quis totam, mollitia eligendi, architecto, ut quibusdam commodi iure omnis aut quasi voluptatum deleniti excepturi reiciendis soluta quos provident deserunt consequatur. Provident, necessitatibus inventore. Expedita autem necessitatibus minima, ut eligendi fugiat laboriosam? Nostrum ullam, porro facilis dolores minima, dignissimos pariatur architecto laboriosam accusantium veniam dolor animi doloremque quia debitis aperiam a illo inventore fugit voluptates voluptatem odit. Reiciendis enim adipisci natus distinctio ipsam, fugit quos quas laudantium, consectetur quo, quisquam veniam. Dolorem laudantium id officiis hic sed, tempore odio quod ipsa ducimus labore obcaecati temporibus sequi eligendi accusantium dolore dignissimos incidunt. Ipsa numquam commodi culpa atque iusto nam! Porro deserunt, provident eos ut, odio voluptatem quibusdam molestiae repudiandae saepe ab maxime expedita, in temporibus. Alias porro nihil nisi iste libero assumenda, quas voluptatibus eveniet suscipit maxime facere deserunt recusandae inventore ipsam ut animi nesciunt possimus temporibus. Doloremque enim voluptatibus quis, officia earum dolore.</p>
+      
+<!-- modal close button -->
+      <a href="" class="modal__close demo-close">
+        <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+<!--Modal4-->
+<div id="modal4" class="modal modal__bg" role="dialog" aria-hidden="true">
+  <div class="modal__dialog">
+    <div class="modal__content">
+      <h1>Modal</h1>
+      <p>Church-key American Apparel trust fund, cardigan mlkshk small batch Godard mustache pickled bespoke meh seitan. Wes Anderson farm-to-table vegan, kitsch Carles 8-bit gastropub paleo YOLO jean shorts health goth lo-fi. Normcore chambray locavore Banksy, YOLO meditation master cleanse readymade Bushwick.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat commodi accusantium esse maiores. Molestias placeat voluptatibus debitis soluta suscipit ea aut eveniet. Facilis ea praesentium adipisci, sapiente maxime architecto saepe error voluptates accusantium esse exercitationem deserunt fugiat veritatis beatae placeat assumenda quod quis labore vero vel laudantium nihil cupiditate delectus! Alias porro iste adipisci recusandae ab voluptates a neque libero sapiente perferendis, harum aspernatur numquam velit pariatur veritatis sit enim? Deserunt obcaecati sit molestias, expedita vero fugiat impedit ipsam iste dolores, animi dolorem, id perspiciatis quasi. Voluptas dignissimos odio unde ratione maiores. Excepturi placeat iste eveniet ipsa sit natus ab nostrum omnis culpa ipsum earum at dolor provident recusandae, officiis velit eligendi ullam! Nulla totam culpa atque, vel quam sint tempore in laboriosam aliquid soluta neque. Nostrum odio, iure error inventore ipsam quibusdam praesentium expedita delectus ducimus aspernatur saepe minus unde minima vitae doloribus corporis dignissimos impedit laboriosam molestiae aliquid culpa cupiditate nemo. Repellat accusantium voluptatum provident magni. Modi expedita autem facilis velit accusantium, consequuntur qui alias aut sint eum tenetur aliquam ipsam, et ipsum reprehenderit quisquam nobis ea fugiat adipisci, dolores labore quis eaque sunt? Soluta, sint ea eius temporibus ullam, aliquam beatae accusantium architecto labore alias, eveniet assumenda recusandae dolorem et eaque saepe? Modi dignissimos vero in consequatur ducimus provident officiis! Autem doloribus eos quidem ipsum suscipit animi, numquam, excepturi eligendi eius facilis, accusamus fugit a magnam architecto aliquid officiis repellendus nemo. Ducimus, modi. Adipisci veritatis, voluptatibus illo corrupti molestias labore maxime perferendis dolorem eos, magnam velit corporis facilis. Modi dolore dolores aliquid fugiat eius laudantium quod voluptates ex repellat corrupti expedita deserunt, asperiores eligendi similique labore. Temporibus quis iste maxime rerum mollitia saepe eius id! Nostrum ut, mollitia porro dicta fugiat inventore suscipit a harum incidunt vero earum rem ipsa labore quo unde corrupti dolorum repellat sit adipisci excepturi, sint consequatur at nulla. Ab eius ea commodi quae quos minus aspernatur quod numquam adipisci dolor accusantium suscipit, tempore dicta fugiat ipsam, consectetur natus! Esse id, optio animi perspiciatis enim quidem vitae porro nulla odio sequi saepe vel ipsa qui quos. Commodi facere delectus eaque quas est! Magni, qui reprehenderit consequatur adipisci a amet minima voluptatibus id explicabo laborum facilis nostrum distinctio alias quam corporis debitis dignissimos sapiente hic tempore provident quas! Vel non quibusdam repudiandae ipsam, rem quos facilis neque consectetur aliquid aliquam enim dolorum alias quo quisquam soluta a ea nostrum mollitia dolorem natus dolore sed error? Optio, quasi, provident ducimus fugiat beatae commodi voluptas, obcaecati sequi doloremque expedita minus. Vitae quae impedit minus. Ratione asperiores soluta assumenda libero odio quo rem culpa, amet quasi? Repellat totam cupiditate nobis. Similique ullam fugit natus possimus dolore at laboriosam officiis sapiente, tempora esse tempore excepturi nisi inventore adipisci repudiandae commodi incidunt voluptatum quia! Repellendus quo nesciunt blanditiis, nulla soluta temporibus debitis. Magnam ab molestiae quam sapiente at perferendis cumque soluta accusantium! Inventore laudantium fugit veritatis, commodi laboriosam odit? Minus eligendi aut nostrum recusandae nemo consequatur vero molestiae sit est cumque? Expedita suscipit possimus eos dolor labore dicta fugit vitae et atque. Aliquam dolor aut, tempora quia iste enim numquam laudantium assumenda praesentium, excepturi repellat repudiandae doloremque soluta pariatur. Molestias, ullam dolore doloribus sapiente voluptatibus vitae! Voluptas reiciendis numquam illum, inventore odio, eligendi id quos voluptate voluptatem pariatur explicabo magnam quia soluta est sit at error vero dolorum aut eveniet et quae accusantium! Et, magni ipsa. Repellendus, sunt earum impedit dicta doloribus nihil. Voluptatibus enim vel molestiae voluptate assumenda nam magnam obcaecati quisquam quo minus repellat dolorem non, cum eaque doloribus necessitatibus natus officia esse repellendus earum voluptas beatae amet sunt eveniet. Nostrum dolore libero veniam dolores odio fugit aliquid amet rem, id consectetur voluptatibus omnis assumenda veritatis optio quasi sequi tempora soluta ipsa similique maxime! Voluptatum quis aperiam rem illo delectus repudiandae ab maxime adipisci totam, corrupti dignissimos. Suscipit, doloribus, accusamus officia mollitia amet illo aperiam quis ex, minus sunt excepturi. Repellendus similique quos id voluptates, cupiditate culpa sint minima non officia corrupti deleniti? Doloremque sequi ratione minus eum nisi nam exercitationem voluptas minima eaque numquam optio, labore reiciendis. Nemo saepe animi, ipsam illum, aliquid consectetur aperiam hic sunt explicabo repellat accusamus amet suscipit maxime qui iste cumque praesentium laborum natus inventore dolores obcaecati dignissimos sint veniam? Eum deleniti ipsa doloremque debitis molestias numquam in nam, adipisci quidem delectus exercitationem molestiae non laboriosam tempora reprehenderit? Maxime aliquid sunt, fugiat ratione itaque hic rerum et quod corporis culpa eaque ipsa in sint? Nesciunt, asperiores tempore. Molestias ipsa voluptate expedita impedit ad excepturi fugit omnis natus hic, eum minus recusandae libero quaerat quisquam, asperiores sapiente repellendus! Quae est laborum odit magnam enim atque, perspiciatis ducimus dolorem dolore accusamus illum adipisci natus suscipit, earum cupiditate animi debitis assumenda corrupti similique dicta sequi! Totam quaerat tenetur recusandae earum temporibus eos ipsa sapiente aspernatur, voluptatibus quos quod voluptatum quia magnam soluta ipsum possimus corrupti assumenda doloribus debitis error perferendis deserunt numquam pariatur? Blanditiis reiciendis error reprehenderit quia, temporibus maiores dolorem et itaque voluptate, ipsum corporis incidunt nemo asperiores corrupti sit excepturi obcaecati esse distinctio rerum. Iste voluptate ex minima illum suscipit, eveniet perspiciatis iure cum dolor repudiandae quod labore possimus ratione ipsa, odio debitis totam dignissimos sequi provident incidunt. Beatae quis totam, mollitia eligendi, architecto, ut quibusdam commodi iure omnis aut quasi voluptatum deleniti excepturi reiciendis soluta quos provident deserunt consequatur. Provident, necessitatibus inventore. Expedita autem necessitatibus minima, ut eligendi fugiat laboriosam? Nostrum ullam, porro facilis dolores minima, dignissimos pariatur architecto laboriosam accusantium veniam dolor animi doloremque quia debitis aperiam a illo inventore fugit voluptates voluptatem odit. Reiciendis enim adipisci natus distinctio ipsam, fugit quos quas laudantium, consectetur quo, quisquam veniam. Dolorem laudantium id officiis hic sed, tempore odio quod ipsa ducimus labore obcaecati temporibus sequi eligendi accusantium dolore dignissimos incidunt. Ipsa numquam commodi culpa atque iusto nam! Porro deserunt, provident eos ut, odio voluptatem quibusdam molestiae repudiandae saepe ab maxime expedita, in temporibus. Alias porro nihil nisi iste libero assumenda, quas voluptatibus eveniet suscipit maxime facere deserunt recusandae inventore ipsam ut animi nesciunt possimus temporibus. Doloremque enim voluptatibus quis, officia earum dolore.</p>
+      
+<!-- modal close button -->
+      <a href="" class="modal__close demo-close">
+        <svg class="" viewBox="0 0 24 24"><path d="M19 6.41l-1.41-1.41-5.59 5.59-5.59-5.59-1.41 1.41 5.59 5.59-5.59 5.59 1.41 1.41 5.59-5.59 5.59 5.59 1.41-1.41-5.59-5.59z"/><path d="M0 0h24v24h-24z" fill="none"/></svg>
+      </a>
+      
+    </div>
+  </div>
+</div>
+
+
+    
+      
+      <footer class="footer">
+        <div class="footer_block">
+          <div class="footer_img">
+            <div class="link_to_index"><a href="index.html" class="footer_logo"></a> </div>
+            <h3 class="footer_slogan">WE CREATE MEANINGFUL DESIGNS</h3>
+            <div class="footer_link_contact"><a href="#" class="footer_link_lang">Русский</a></div>
+
+          </div>
+          <div class="footer_navigation">
+            <h3 class="footer_title">Navigation</h3>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">About</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Services</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Projects</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Designs to Buy</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Contact Us</a></p>
+          </div>
+          <div class="footer_contacts">
+            <h3 class="footer_title">Contact</h3>
+            <p class="footer_adress">23 Jamestown Way, London E14 2DE</p>
+            <p class="footer_adress">Info@Spectrumwise.tech</p>
+            <div class="social_media_block">
+              <a class="social_media_instagram" href="https://www.instagram.com/spectrumwise_official/" target="_blank"></a>
+              <a class="social_media_linkedin" href="https://www.linkedin.com/company/spectrumwise-ltd/" target="_blank"></a>
+              <a class="social_media_facebook" href="https://www.facebook.com/profile.php?id=100092286157954" target="_blank"></a>
+
+            </div>
+          </div>
+        </div>
+        <p class="copyright">Powered by SPECTRUMWISE</p>
+      </footer>
+    </div>
+      
+
+
+   
+      <script src="scrypts/change_color.js"></script>
+      <script src="scrypts/style_menu.js"></script>
+      <script src="scrypts/filter_scrypt.js"></script>
+      <script src="scrypts/modal.js"></script>
+      
+    
+</body>
+</html>

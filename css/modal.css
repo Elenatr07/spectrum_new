@@ -1,0 +1,139 @@
+.modal {
+    will-change: visibility, opacity;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1000;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+    
+  }
+  .modal--active {
+    visibility: visible;
+    opacity: 1;
+  }
+  .modal--align-top {
+    align-items: flex-start;
+  }
+  .modal__bg {
+    background: transparent;
+  }
+  .modal__dialog {
+    max-width: 1440px;
+    padding: 1.2rem;
+    top: 50px;
+    position: absolute;
+  }
+  .modal__content {
+    will-change: transform, opacity;
+    position: relative;
+    padding: 2.4rem;
+    background: rgba(255, 255, 255, 1);
+    background-clip: padding-box;
+    box-shadow: 0 12px 15px 0 rgba(0,0,0,0.25);
+    opacity: 0;
+    transition: all 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .modal__content--active {
+    opacity: 1;
+  }
+  .modal__close {
+    z-index: 1100;
+    cursor: pointer;
+  }
+  .modal__trigger {
+    cursor: pointer;
+    width: 450px;
+}
+  .modal__trigger--active {
+    z-index: 10;
+  }
+  
+  #modal__temp {
+    will-change: transform, opacity;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    transform: none;
+    opacity: 1;
+    transition: opacity 0.1s ease-out, transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .demo-btns header {
+    padding: 7vh 10vw;
+    
+    display: flex;
+    align-items: center;
+  }
+  .demo-btns header h1 {
+    margin: 0;
+    color: rgba(0,0,0,0.54);
+    font-weight: 300;
+  }
+  .demo-btns .info {
+    background: #f44336;
+    padding: 3vh 10vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+  .demo-btns p {
+    text-align: center;
+    color: #fff;
+  }
+  .demo-btns .link {
+    font-size: 20px;
+  }
+  .demo-btns .modal__trigger {
+    margin-right: 3px;
+  }
+  @media (max-width: 640px) {
+    .demo-btns .modal__trigger {
+      margin-bottom: 0.8rem;
+    }
+  }
+  .demo-close {
+    position: absolute;
+    
+    top: 0;
+    right: 0;
+    margin: 1.2rem;
+    padding: 0.6rem;
+    background: linear-gradient(75deg, rgba(247, 62, 148, 1), rgba(34, 220, 217, 1));
+    border-radius: 50%;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  }
+
+  .demo-close::before {
+    position: absolute;
+    content: "";
+    background: white;
+    border-radius: 50%;
+    z-index: -2;
+    width: 40px;
+    height: 39px;
+    top: 2px;
+    left: 2px;
+  }
+  .demo-close svg {
+    width: 24px;
+    fill: black;
+    pointer-events: none;
+    vertical-align: top;
+  }
+  .demo-close:hover {
+    background: linear-gradient(75deg, rgba(34, 220, 217, 1), rgba(247, 62, 148, 1));
+  }
