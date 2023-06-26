@@ -329,7 +329,7 @@
     }
   }
 
-  @media(max-width:321px) {
+  @media(max-width:365px) {
     .creatives {
       letter-spacing: 0.08em;
     }
