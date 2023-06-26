@@ -269,13 +269,7 @@
       height: 270px;
     }
 
-    .modal__dialog {
-      max-width: 320px;
-      
-    }
-    .modal__content {
-      padding: 0.6rem;
-    }
+       
     .modal_content_title {
       letter-spacing: 5px;
   }
