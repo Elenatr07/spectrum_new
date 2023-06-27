@@ -119,24 +119,39 @@
     background: linear-gradient(75deg, rgba(34, 220, 217, 1), rgba(247, 62, 148, 1));
   }
 
-  .modal_img_1, .modal_img_2 {
+  .modal1_img_1, .modal1_img_2 {
     max-width: 1200px;
     height: 900px;
   }
 
-  .modal_img_3, .modal_img_4 {
+  .modal1_img_3, .modal1_img_4 {
+    max-width: 1200px;
+    height: 1200px;
+  }
+
+  .modal5_img_1 {
+    max-width: 1200px;
+    height: 1063px;
+  }
+
+  .modal5_img_2, .modal5_img_3, .modal5_img_4 {
     max-width: 1200px;
     height: 1200px;
   }
 
   @media(max-width: 1300px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 1000px;
       height: 750px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
       max-width: 1000px;
       height: 1000px;
+    }
+
+    .modal5_img_1 {
+      max-width: 1000px;
+      height: 886px;
     }
 
     .modal__dialog {
@@ -144,29 +159,59 @@
     }
   }
 
-  @media(max-width: 1130px) {
-    .modal_img_1, .modal_img_2 {
+  @media(max-width: 1105px) {
+    .modal1_img_1, .modal1_img_2 {
+      max-width: 900px;
+      height: 675px;
+    }
+    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
+      max-width: 900px;
+      height: 900px;
+    }
+
+    .modal5_img_1 {
+      max-width: 900px;
+      height: 797px;
+    }
+
+    .modal__dialog {
+      max-width: 1080px;
+    }
+  }
+  
+  @media(max-width: 1000px) {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 800px;
       height: 600px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
       max-width: 800px;
       height: 800px;
+    }
+
+    .modal5_img_1 {
+      max-width: 800px;
+      height: 709px;
     }
 
     .modal__dialog {
       max-width: 960px;
     }
   }
-  
+   
   @media(max-width: 950px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 600px;
       height: 450px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_3 {
       max-width: 600px;
       height: 600px;
+    }
+
+    .modal5_img_1 {
+      max-width: 600px;
+      height: 532px;
     }
 
     .modal__dialog {
@@ -175,13 +220,18 @@
   }
 
   @media(max-width: 767px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 500px;
       height: 375px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
       max-width: 500px;
       height: 500px;
+    }
+
+    .modal5_img_1 {
+      max-width: 500px;
+      height: 443px;
     }
 
     .modal__dialog {
@@ -196,13 +246,18 @@
   }
 
   @media(max-width: 600px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 354px;
       height: 265px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
       max-width: 354px;
       height: 354px;
+    }
+
+    .modal5_img_1 {
+      max-width: 354px;
+      height: 314px;
     }
 
     .modal__dialog {
@@ -221,13 +276,23 @@
   }
 
   @media(max-width: 424px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, 
+    .modal1_img_2 {
       max-width: 320px;
       height: 240px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_4 {
       max-width: 320px;
       height: 240px;
+    }
+
+    .modal5_img_1 {
+      max-width: 320px;
+      height: 283px;
     }
 
     .modal__dialog {
@@ -244,13 +309,22 @@
   }
 
   @media(max-width: 389px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 300px;
       height: 225px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, 
+    .modal1_img_4,
+    .modal5_img_2,
+    .modal1_img_3,
+    .modal5_img_4 {
       max-width: 300px;
       height: 225px;
+    }
+
+    .modal5_img_1 {
+      max-width: 300px;
+      height: 266px;
     }
 
     .modal__dialog {
@@ -260,13 +334,22 @@
   }
 
   @media(max-width: 360px) {
-    .modal_img_1, .modal_img_2 {
+    .modal1_img_1, .modal1_img_2 {
       max-width: 270px;
       height: 202px;
     }
-    .modal_img_3, .modal_img_4 {
+    .modal1_img_3, 
+    .modal1_img_4,
+    .modal5_img_2,
+    .modal5_img_3,
+    .modal5_img_4 {
       max-width: 270px;
       height: 270px;
+    }
+
+    .modal5_img_1 {
+      max-width: 270px;
+      height: 239px;
     }
 
        
