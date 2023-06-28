@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Oswald:wght@200;500;700&display=swap"
       rel="stylesheet">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <title>SpectrumWise</title>
 </head>
@@ -56,31 +56,79 @@
           <div class="general_slogan_projects">
               <h2 class="slogan">EXPLORE OUR <span class="creatives">SERVICES</span> </h2>
               <div class="filter_services">
-                <a class="button_services">Web Design </a>
-                <a class="button_services">Graphic Design </a>
-                <a class="button_services" >Marketing</a>
+                <a class="button_services" href="#block_web_design">Web Design </a>
+                <a class="button_services" href="#block_graphic_design">Graphic Design </a>
+                <a class="button_services" href="#block_marketing_design">Marketing</a>
               
             </div>
           </div>
         </div>
         
       </div>
-      <div class="block_web_design">
+      <div class="block_web_design" id="block_web_design">
         <h3 class="title">Web Design</h3>
-        <div class="web_design_cards">
-            <div class="web_design_cards_img"> <img src="img_services/webdesign.svg" alt="">
+        <div class="design_cards">
+            <div class="design_cards_img"> <img src="img_services/webdesign.svg" alt="">
                 <p class="card_data">Web Design</p> 
             </div>
-            <div class="web_design_cards_img"> <img src="img_services/appdesign.svg" alt="">
+            <div class="design_cards_img"> <img src="img_services/appdesign.svg" alt="">
                 <p class="card_data">App Design</p> 
             </div>
-            <div class="web_design_cards_img"> <img src="img_services/landingdesign.svg" alt="">
+            <div class="design_cards_img"> <img src="img_services/landingdesign.svg" alt="">
                 <p class="card_data">Landing Page Design</p> 
             </div>
 
         </div>
-        <div class="link_contact services"><a href="#contact" class="link_link">Contact Us</a></div>
-
+        <div class="link_contact services"><a href="#" class="link_link">Contact Us</a></div>
+      </div>
+      <div class="block_graphic_design" id="block_graphic_design">
+        <h3 class="title">Graphic Design</h3>
+        <div class="design_cards">
+          <div class="design_cards_img"> <img src="img_services/logodesign.svg" alt="">
+            <p class="card_data card">Logo Design</p> 
+          </div>
+          <div class="design_cards_img"> <img src="img_services/businessCardDesign.svg" alt="">
+            <p class="card_data card">Business Card Design</p> 
+          </div>
+          <div class="design_cards_img"> <img src="img_services/packagingDesign.svg" alt="">
+            <p class="card_data card">Packaging Design</p> 
+          </div>
+          <div class="design_cards_img"> <img src="img_services/letterhead.svg" alt="">
+            <p class="card_data card">Letterhead Design</p> 
+          </div>
+          <div class="design_cards_img _hidden" > <img src="img_services/brochure.svg" alt="">
+            <p class="card_data card">Brochure Design</p> 
+          </div>
+          <div class="design_cards_img _hidden"> <img src="img_services/resume.svg" alt="">
+            <p class="card_data card">Resume Design</p> 
+          </div>
+          <div class="design_cards_img _hidden"> <img src="img_services/presentation.svg" alt="">
+            <p class="card_data card">Presentation Design</p> 
+          </div>
+          <div class="design_cards_img _hidden"> <img src="img_services/catalogue.svg" alt="">
+            <p class="card_data card">Catalogue Design</p> 
+          </div>
+          <div class="design_cards_img _hidden"> <img src="img_services/flyer.svg" alt="">
+            <p class="card_data card">Flyer Design</p> 
+          </div>
+        </div>
+        <div class="button">
+          <button class="load_btn" onclick="showless()" id="load_btn">See More</button>
+        </div>
+        <div class="link_contact services"><a href="#" class="link_link services">Contact Us</a></div>
+      </div>
+      <div class="block_marketing_design" id="block_marketing_design">
+        <h3 class="title">Content Marketing</h3>
+        <div class="design_cards marketing">
+          <div class="design_cards_img"> <img src="img_services/seo.svg" alt="">
+            <p class="card_data">SEO</p> 
+          </div>
+          <div class="design_cards_img"> <img src="img_services/contentWriting.svg" alt="">
+            <p class="card_data">Content Writing</p> 
+          </div>
+        </div>
+       
+        <div class="link_contact services"><a href="#" class="link_link">Contact Us</a></div>
       </div>
 
 
@@ -123,6 +171,7 @@
    
       <script src="scrypts/change_color.js"></script>
       <script src="scrypts/style_menu.js"></script>
+      <script src="scrypts/see_more.js"></script>
       
       
     
