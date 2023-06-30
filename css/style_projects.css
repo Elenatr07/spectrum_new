@@ -359,6 +359,11 @@
     margin-top: 190px;
   }
 }
+@media(max-width: 410px) {
+  .general_slogan_projects {
+    max-width: 380px;
+  }
+}
 
 @media(max-width:365px) {
   .creatives {
@@ -392,5 +397,8 @@
   .card img {
     max-width: 300px;
     height: 225px;
+  }
+  .general_slogan_projects {
+    max-width: 320px;
   }
 }
