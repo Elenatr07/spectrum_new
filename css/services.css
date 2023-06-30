@@ -25,11 +25,11 @@
 
   .filter_services {
     margin-top: 65px;
-    width: 450px;
+    max-width: 450px;
     height: 136px;
     display: flex;
     flex-wrap: wrap;
-    float: left;
+    
   
   
   }
@@ -77,7 +77,7 @@
   .block_web_design {
     background: var(--bg-dark-light);
     width: 100%;
-    height: 729px;
+    max-height: 1391px;
     z-index: 0;
     position: relative;
   }
@@ -117,9 +117,17 @@
     margin-top: 0;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 130px;
+    
     display: flex;
     justify-content: center;
+}
+.option {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 130px;
 }
 
 .block_graphic_design {
@@ -138,7 +146,7 @@
 .block_marketing_design {
   background: var(--bg-dark-light);
   width: 100%;
-  height: 729px;
+  max-height: 1060px;
   z-index: 0;
   position: relative;
 }
@@ -151,7 +159,7 @@
 }
 
 .load_btn {
-  margin: 0 auto;
+  margin: 0 auto 85px auto;
   display: none;
   width: 134px;
   height: 42px;
@@ -170,7 +178,24 @@
     /* #FFFFFF*/
   ;
   padding: 9px 21px;
+  background: transparent;
 
+}
+#load_btn:after {
+  background: var(--lang-row-down) no-repeat scroll center center;
+    content: "";
+    height: 4px;
+    top: 15px;
+    width: 10px;
+    padding-left: 27px;
+}
+#load_btn.tool:after {
+  background: var(--lang-row-up) no-repeat scroll center center;
+  content: "";
+  height: 4px;
+  top: 15px;
+  width: 10px;
+  padding-left: 27px;
 }
 
 
@@ -192,8 +217,29 @@
   .design_cards {
     max-width: 740px;
   }
-  .block_web_design {
-   height: 1032px;
+
+}
+@media (max-width:999px ) {
+  .slogan {
+    text-align: center;
+  }
+  .filter_services {
+    max-width: 600px;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    
+  }
+  .button_services {
+    font-size: 15px;
+    padding: 9px 7px;
+    width: 150px;
+    margin-right: 0;
+  }
+  .button_services::before {
+    width: 154px;
+  }
+  .general_slogan_projects {
+    margin: 0 auto;
   }
 }
 
@@ -202,10 +248,7 @@
   .design_cards {
     max-width: 370px;
   }
-  .block_web_design {
-   height: 1032px;
-  }
-
+  
   .load_btn {
     display: block;
   }
@@ -213,3 +256,61 @@
     display: none;
   }
 }
+
+@media(max-width:650px) {
+  .general_slogan_projects {
+    max-width: 369px;
+}
+.filter_services {
+  max-width: 369px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+}
+@media(max-width: 451px) {
+  .creatives {
+  line-height: 84.45px;
+  font-size: 50px;
+}
+
+.slogan {
+  font-size: 43px;
+  line-height: 64.5px;
+}
+
+.filter_services {
+    max-width: 320px;
+    margin: 65px auto;
+}
+
+}
+
+@media(max-width: 375px) {
+  .general_slogan_projects {
+    max-width: 300px;
+}
+.creatives {
+  letter-spacing: 0.08em;
+}
+.button_services {
+  font-weight: 200;
+  width: 140px;
+}
+.button_services::before {
+  width: 144px;
+}
+.design_cards_img img {
+  width: 300px;
+  height: 225px;
+  background-size: 300px 225px;
+}
+.design_cards_img {
+  width: 300px;
+  height: 100%;
+}
+
+}
+
+
+  
