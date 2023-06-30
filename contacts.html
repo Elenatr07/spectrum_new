@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/style_general.css">
+    <link rel="stylesheet" href="css/contacts.css">
+
+    
+   
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Oswald:wght@200;500;700&display=swap"
+      rel="stylesheet">
+    
+    
+    <title>SpectrumWise</title>
+</head>
+<body>
+
+    <div id="nav_shadow"></div>
+    <div class="container">
+      <!-- Navigation bar -->
+      <header class="header_page">
+        <a href="index.html" class="header_logo"></a>
+  
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu" id="menu_opener"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+          <ul class="menu">
+            <li class="dropdown" id="id_link_dropdown">
+                <a href="#" id="dropbtn" class="link">English</a>
+                <div class="dropdown-content">
+                  <a href="#" class="link">Русский</a>
+                </div>
+            </li>
+            <li class="link_lang"><a href="" class="link">Русский</a></li>
+            <li id="id_link_projects"><a href="projects.html" class="link">Projects</a> </li>
+            <li class="link_services" id="id_link_services"><a href="services.html" class="link">Services</a> </li>
+            <li id="id_link_designs_to_by"><a href="#designs_to_buy" class="link">Designs to Buy</a> </li>
+            <li class="lighting" id="toggle"><a href="#" class="link"></a></li>
+            <li class="menu_link_contact"><a href="#" class="link_link">Contact Us</a></li>
+          </ul>
+          <div class="link_contact"><a href="#" class="link_link">Contact Us</a></div>
+          
+        </nav>
+  
+      </header>
+      <div class="general_projects">
+        <div class="general_projects_block">
+          <div class="general_slogan_projects">
+              <h2 class="slogan slogan_contacts">OUR <span class="creatives">CONTACTS</span> </h2>
+              <div class="social_media_block social_option">
+                <a class="social_media_instagram contacts_header" href="https://www.instagram.com/spectrumwise_official/" target="_blank"></a>
+                <a class="social_media_linkedin contacts_header" href="https://www.linkedin.com/company/spectrumwise-ltd/" target="_blank"></a>
+                <a class="social_media_facebook contacts_header" href="https://www.facebook.com/profile.php?id=100092286157954" target="_blank"></a>
+  
+              </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="block_contacts_form">
+        <h3 class="title">Contact Form</h3>
+        <div class="contacts_form">
+               <div class="contacts_block_img">
+            <img src="img/contacts.svg" alt="typewriter" class="typewriter">
+          </div>
+        <div class="form">
+            <form action="sender.php" method="post" id="formmain">
+              <p class="title_form">What’s your name?</p>
+              <div class="name" id="border_name">
+                <input type="text" ;  onmouseover="overColor()" onmouseout="normalColor()" class="input"  name="name" placeholder="Name" required id="formname">
+              </div>
+              <p class="title_form">Enter your email</p>
+              <div class="name" id="border_email">
+                    <input type="email" onmouseover="overColor1()" onmouseout="normalColor1()" class="input" name="email" placeholder="Email" required id="formemail">
+              </div>
+                     
+              <p class="title_form">Enter your message here...</p>
+              <div class="send_status" id="border_textarea">
+                <textarea name="text" onmouseover="overColor2()" onmouseout="normalColor2()" id="formtext" cols="30" rows="10" class="text_field"
+                  placeholder="Message"></textarea>
+                <div class="status"></div>
+              </div>
+  
+              <button type="button" class="send-form" onClick="setTimeout('clearform()', 2000 );" id="send-form">Send
+                Message</button>
+  
+            </form>
+          </div>
+        </div>
+     
+        </div>
+      </div>
+     
+    
+      
+      <footer class="footer">
+        <div class="footer_block">
+          <div class="footer_img">
+            <div class="link_to_index"><a href="index.html" class="footer_logo"></a> </div>
+            <h3 class="footer_slogan">WE CREATE MEANINGFUL DESIGNS</h3>
+            <div class="footer_link_contact"><a href="#" class="footer_link_lang">Русский</a></div>
+
+          </div>
+          <div class="footer_navigation">
+            <h3 class="footer_title">Navigation</h3>
+            <p class="footer_navigation_link"><a href="index.html#about" class="footer_link">About</a></p>
+            <p class="footer_navigation_link"><a href="services.html" class="footer_link">Services</a></p>
+            <p class="footer_navigation_link"><a href="projects.html" class="footer_link">Projects</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Designs to Buy</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Contact Us</a></p>
+          </div>
+          <div class="footer_contacts">
+            <h3 class="footer_title">Contact</h3>
+            <p class="footer_adress">23 Jamestown Way, London E14 2DE</p>
+            <p class="footer_adress">Info@Spectrumwise.tech</p>
+            <div class="social_media_block">
+              <a class="social_media_instagram" href="https://www.instagram.com/spectrumwise_official/" target="_blank"></a>
+              <a class="social_media_linkedin" href="https://www.linkedin.com/company/spectrumwise-ltd/" target="_blank"></a>
+              <a class="social_media_facebook" href="https://www.facebook.com/profile.php?id=100092286157954" target="_blank"></a>
+
+            </div>
+          </div>
+        </div>
+        <p class="copyright">Powered by SPECTRUMWISE</p>
+      </footer>
+    </div>
+      
+
+
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+        <script src="scrypts/jquery.maskedinput.js"></script>
+        <script src="scrypts/jquery.validate.min.js"></script>
+        <script src="scrypts/script.js"></script>
+      <script src="scrypts/change_color.js"></script>
+      <script src="scrypts/style_menu.js"></script>
+      <script src="scrypts/border.js"></script>
+      
+
+      
+      
+    
+</body>
+</html>

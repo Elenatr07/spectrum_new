@@ -20,7 +20,8 @@ body {
     --text-white: #000000;
     /*цвет текста для темного стиля*/
     /*--text-dark: #000000; /*цвет текста для белого стиля*/
-    --text-field-dark: rgba(0, 0, 0, 0.51);
+    --text-field-light: rgba(0, 0, 0, 0.51);
+  
     /*цвет текстового поля для белого стиля*/
     /* --text-field-light:#DAE4DD; /*цвет текстового поля для темной темы*/
     --text-copyright: #000000;
@@ -63,7 +64,7 @@ body {
     --bg-dark: #070726;
     --text-white: #FFFFFF;
     --bg-dark-light: #0C0C2D;
-    --text-field-light: #DAE4DD;
+    --text-field-light: #b4b5b4;
     --text-copyright: rgba(255, 255, 255, 0.5);
     --image-logo-light: url(../img/logo_dark.svg);
     --image-news1: url(../img/Group_40072.svg);
