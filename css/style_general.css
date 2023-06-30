@@ -484,14 +484,15 @@ body {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 15px;
     color: var(--text-copyright)
         /* rgba(255, 255, 255, 0.5)*/
     ;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     margin-right: 18px;
+    margin-top: 58px;
 }
 
 
