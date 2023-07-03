@@ -1,0 +1,154 @@
+
+  .design_to_buy {
+    max-width: 680px;
+    
+  }
+
+ .to_buy_option {
+    height: 462px;
+ }
+  
+  .load_btn_how {
+    margin-left: 168px;
+    margin-bottom: 65px;
+    display: flex;
+    height: 42px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 21px;
+    border: 2px solid transparent;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    color: var(--text-white)
+      /* #FFFFFF*/
+    ;
+    background: transparent;
+  
+  }
+  #load_btn_how:after {
+    background: var(--lang-row-down) no-repeat scroll center center;
+      content: "";
+      height: 4px;
+      top: 10px;
+      width: 10px;
+      padding-left: 57px;
+      position: relative;
+  }
+  #load_btn_how.up:after {
+    background: var(--lang-row-up) no-repeat scroll center center;
+    content: "";
+    height: 4px;
+    top: 10px;
+    width: 10px;
+    padding-left: 57px;
+    position: relative;
+  }
+
+  
+  
+  
+  .button {
+    max-width: 1440px;
+    margin: 0 auto 0 auto;
+    display: flex;
+  }
+  .step {
+    display: none;
+    background-image: url(../img_to_buy/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-size: 333px 250px;
+    width: 333px;
+    height: 250px;
+    margin: 0 auto 70px auto;
+    color: #000;
+    font-size: 18px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+
+  .manual {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1163px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .step_info {
+    position: relative;
+    top:212px;
+    left:20px;
+  }
+  
+  .filter_option {
+    width: 600px;
+  }
+
+  @media(max-width:1300px) {
+    .load_btn_how {
+        margin-left: 75px;
+    }
+  }
+
+  @media(max-width: 1056px) {
+    .step {
+        background-size: 300px 225px;
+        width: 300px;
+        height: 225px;
+    }
+    .step_info {
+        top:191px
+    }
+  }
+
+  @media(max-width:999px) {
+    .filter_option {
+        width: 600px;
+        margin: 83px auto 0 auto;
+  }
+  .load_btn_how {
+    margin: 0 auto 65px auto
+  } 
+  .manual {
+    flex-wrap: wrap;
+  }
+ 
+  }
+
+  @media(max-width:700px) {
+    .design_to_buy{
+        max-width: 395px;
+      
+    }
+    .filter_option {
+        width: 395px;
+    }
+    .to_buy_option {
+        height: 551px;
+    }
+  }
+  @media(max-width:375px) {
+    .design_to_buy {
+        max-width: 370px;
+    }
+    .filter_option {
+        width: 370px;
+    }
+
+    @media(max-width:364px) {
+        .design_to_buy {
+            max-width: 320px;
+        }
+        .filter_option {
+            width: 320px;
+        }
+    }
+  }
+

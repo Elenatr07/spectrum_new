@@ -316,6 +316,53 @@ input {
     max-width: 389px;
     max-height: 391px;
 }
+@media (max-width: 1300px) {
+    .general_slogan_projects {
+      margin: 0 0 0 75px;
+  }
+  }
+
+@media(max-width:1200px) {
+    form {
+        width: 500px;
+    }
+    input {
+        width: 496px;
+    }
+    .name {
+        width: 500px;
+    }
+    .send_status {
+        width: 500px;
+    }
+    .contacts_block_img {
+        width: 533px;
+    }
+    .text_field {
+        width: 496px;
+    }
+}
+
+@media(max-width:1136px) {
+    form {
+        width: 470px;
+    }
+    input {
+        width: 466px;
+    }
+    .name {
+        width: 470px;
+    }
+    .send_status {
+        width: 470px;
+    }
+    .contacts_block_img {
+        width: 501px;
+    }
+    .text_field {
+        width:466px ;
+    }
+}
 
 @media (max-width:1024px) {
     .contacts {
@@ -326,11 +373,12 @@ input {
         width: 400px;
     }
     form {
-        width: 380px;
+        width: 384px;
     }
 
     .text_field {
         width: 380px;
+
     }
   
     input {
@@ -340,12 +388,53 @@ input {
     max-width: 320px;
     max-height: 307px;
     }
+    .name {
+        width: 384px;
+    }
+    .send_status {
+        width: 384px;
+        height: 218px;
+    }
+    
 
 }
+@media (max-width:999px ) {
+    .slogan_contacts {
+      text-align: center;
+      margin: 0 auto;
+    }
+    .general_slogan_projects {
+        margin: 0 auto;
+    }
+    .social_option {
+        margin: 78px auto 147px auto;
+    }
+    .contacts_header{
+        margin: 0 auto;
+        background-position: center;
+    }
+}
 
+@media (max-width: 850px) {
+    form {
+        width: 364px;
+    }
+    input {
+        width: 360px;
+    }
+    .name {
+        width: 364px;
+    }
+    .send_status {
+        width: 364px;
+    }
+    .contacts_block_img {
+        width: 384px;
+    }
+}
 @media (max-width: 768px) {
     form {
-        width: 468px;
+        width: 472px;
     }
     input {
         width: 468px;
@@ -358,7 +447,7 @@ input {
         display: none;
     }
     .send_status {
-        width: 468px;
+        width: 472px;
     }
     .contacts {
         padding-left: 150px;
@@ -368,6 +457,9 @@ input {
     .send-form {
         align-self: center;
     }
+    .name {
+        width:472px ;
+    }
 }
 
 @media (max-width: 710px) {
@@ -375,11 +467,11 @@ input {
         width: 360px;
     }
     input {
-        width: 360px;
+        width: 356px;
     }
     .text_field {
-        width: 360px;
-        height: 215px;
+        width: 356px;
+       
     }
   
     .send_status {
@@ -389,6 +481,9 @@ input {
     padding-left: 35px;
     padding-right: 35px;
     }
+    .name {
+        width: 360px;
+    }
 }
 
 @media (max-width: 424px) {
@@ -396,31 +491,63 @@ input {
         width: 305px;
     }
     input {
-        width: 305px;
+        width: 301px;
     }
     .text_field {
-        width: 305px;
-        height: 215px;
+        width: 301px;
+       
     }
   
     .send_status {
         width: 305px;
     }
+    .name {
+        width: 305px;
+    }
 }
+@media(max-width: 410px) {
+    .general_slogan_projects {
+      max-width: 370px;
+    }
+    .creatives {
+      letter-spacing: 0.08em;
+    }
+    .slogan_contacts {
+        width: 370px;
+    }
+  }
 
 @media (max-width: 375px) {
+    .general_slogan_projects {
+        max-width: 340px;
+      }
+      .slogan_contacts {
+        width: 340px ;
+      }
     form {
         width: 260px;
     }
     input {
-        width: 260px;
+        width: 256px;
     }
     .text_field {
-        width: 260px;
-        height: 215px;
+        width: 256px;
+      
     }
   
     .send_status {
         width: 260px;
     }
+    .name {
+        width: 260px;
+    }
+}
+
+@media(max-width:350px) {
+    .general_slogan_projects {
+        max-width: 300px;
+      }
+      .slogan_contacts {
+        width: 300px ;
+      }
 }

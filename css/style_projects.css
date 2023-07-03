@@ -363,12 +363,13 @@
   .general_slogan_projects {
     max-width: 380px;
   }
-}
-
-@media(max-width:365px) {
   .creatives {
     letter-spacing: 0.08em;
   }
+}
+
+@media(max-width:365px) {
+  
 
   .button_projects {
     width: 125px;

@@ -19,3 +19,23 @@ function showless(){
    //console.log(els);
   }
   }
+  function how_it_works(){
+    let btnText = document.getElementById("load_btn_how");
+    let els = document.getElementsByClassName("step");
+   var arrow = document.getElementById("load_btn_how");
+   
+   arrow.classList.toggle('up');
+   
+    
+    for (var i = 0, el; el = els[i]; i++){
+      if (getComputedStyle(el).display == 'none') {
+        el.style.display = 'block';
+        
+        
+      } else {
+       el.style.display = "none";
+       
+      }
+   //console.log(els);
+  }
+  }

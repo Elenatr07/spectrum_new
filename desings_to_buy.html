@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_menu.css">
+    <link rel="stylesheet" href="css/style_general.css">
+    <link rel="stylesheet" href="css/itc-slider.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+    <link rel="stylesheet" href="css/style_projects.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/design_to_buy.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&family=Oswald:wght@200;500;700&display=swap"
+      rel="stylesheet">
+    
+    
+    <title>SpectrumWise</title>
+</head>
+<body>
+
+    <div id="nav_shadow"></div>
+    <div class="container">
+      <!-- Navigation bar -->
+      <header class="header_page">
+        <a href="index.html" class="header_logo"></a>
+  
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu" />
+        <label class="hamb" for="side-menu" id="menu_opener"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+          <ul class="menu">
+            <li class="dropdown" id="id_link_dropdown">
+                <a href="#" id="dropbtn" class="link">English</a>
+                <div class="dropdown-content">
+                  <a href="#" class="link">Русский</a>
+                </div>
+            </li>
+            <li class="link_lang"><a href="" class="link">Русский</a></li>
+            <li id="id_link_projects"><a href="projects.html" class="link">Projects</a> </li>
+            <li class="link_services" id="id_link_services"><a href="services.html" class="link">Services</a> </li>
+            <li id="id_link_designs_to_by"><a href="#" class="link">Designs to Buy</a> </li>
+            <li class="lighting" id="toggle"><a href="#" class="link"></a></li>
+            <li class="menu_link_contact"><a href="contacts.html" class="link_link">Contact Us</a></li>
+          </ul>
+          <div class="link_contact"><a href="contacts.html" class="link_link">Contact Us</a></div>
+          
+        </nav>
+  
+      </header>
+      <div class="general_projects to_buy_option">
+        <div class="general_projects_block">
+          <div class="general_slogan_projects design_to_buy">
+              <h2 class="slogan">CHECK OUR READY TO BUY <span class="creatives">DESIGNS</span> </h2>
+              <div class="filter filter_option">
+                <button class="button_projects button_type_all active loadbtn" data-filter="all">All designs</button>
+                <button class="button_projects button_type_logo" data-filter="logo">Logo Design </button>
+                <button class="button_projects button_type_landing" data-filter="landing">Landing Page</button>
+                <button class="button_projects button_type_web" data-filter="web">Web Design</button>
+                <button class="button_projects button_type_other" data-filter="other">Other</button>
+            </div>
+          </div>
+        
+        </div>
+        
+      </div>
+      <div class="button">
+        <button class="load_btn_how" onclick="how_it_works()" id="load_btn_how">See how it works</button>
+      </div>
+      <div class="manual">
+            <div class="step">
+               <p class="step_info">1. Open Design you Like</p> 
+            </div>
+            <div class="step">
+               <p class="step_info">2. Click on “I Want This”</p> 
+            </div>
+            <div class="step">
+               <p class="step_info">3. We Will Contact You</p> 
+            </div>
+      </div>
+      <main class="content">
+        <div class="container_cards">
+          
+          <a href="#" data-modal="#modal" class="modal__trigger card logo all ">
+            <p class="card_data">Logo Design</p> 
+            <p class="card_name">Hermetica</p>
+            <img src="img_projects/Hermetica_Logo_Black1.svg" alt="">
+          </a>
+          <a href="#" data-modal="#modal1" class="modal__trigger card web all"> 
+            <p class="card_data">Web Design</p> 
+            <p class="card_name">Hermetica</p>
+            <img src="img_projects/Hermetica_Website.svg" alt=""> 
+          </a>
+          <a href="#" data-modal="#modal2" class="modal__trigger card logo all">  
+            <p class="card_data_black">Logo Design </p> 
+            <p class="card_name_black">FAM!</p>
+            <img src="img_projects/fam_logo.svg" alt="">
+          </a>
+          <a href="#" data-modal="#modal3" class="modal__trigger card logo all">
+            <p class="card_data_black">Logo Design </p> 
+            <p class="card_name_black">Kokomo</p>
+            <img src="img_projects/kokomo_logo.svg" alt="">
+          </a>
+          <a href="#" data-modal="#modal4" class="modal__trigger card logo all">
+              <p class="card_data">Logo Design</p> 
+              <p class="card_name">Energotrans</p>
+              <img src="img_projects/energotrans_logo.svg" alt="">
+          </a>
+             <a href="#" data-modal="#modal5" class="modal__trigger card logo all">
+              <p class="card_data">Logo Design</p> 
+              <p class="card_name">Cactus</p>
+              <img src="img_projects/Cactus-Dribbble.svg" alt="">
+          </a>
+            <!--<div class="card logo all"><img src="img_projects/energotrans_logo.svg" alt=""></div>
+            <div class="card logo _hidden all"><img src="img_projects/energotrans_logo.svg" alt=""></div>
+            <div class="card packaging _hidden all"><img src="img_projects/energotrans_logo.svg" alt=""></div>
+            <div class="card landing all">Landing Page</div>
+            <div class="card other all">Other</div>--> 
+            
+              
+        </div>
+        <div class="button">
+          <button class="load_btn" id="load_btn">See More</button>
+        </div>
+    </main>
+
+
+
+    
+      
+      <footer class="footer">
+        <div class="footer_block">
+          <div class="footer_img">
+            <div class="link_to_index"><a href="index.html" class="footer_logo"></a> </div>
+            <h3 class="footer_slogan">WE CREATE MEANINGFUL DESIGNS</h3>
+            <div class="footer_link_contact"><a href="#" class="footer_link_lang">Русский</a></div>
+
+          </div>
+          <div class="footer_navigation">
+            <h3 class="footer_title">Navigation</h3>
+            <p class="footer_navigation_link"><a href="index.html#about" class="footer_link">About</a></p>
+            <p class="footer_navigation_link"><a href="services.html" class="footer_link">Services</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Projects</a></p>
+            <p class="footer_navigation_link"><a href="#" class="footer_link">Designs to Buy</a></p>
+            <p class="footer_navigation_link"><a href="contacts.html" class="footer_link">Contact Us</a></p>
+          </div>
+          <div class="footer_contacts">
+            <h3 class="footer_title">Contact</h3>
+            <p class="footer_adress">23 Jamestown Way, London E14 2DE</p>
+            <p class="footer_adress">Info@Spectrumwise.tech</p>
+            <div class="social_media_block">
+              <a class="social_media_instagram" href="https://www.instagram.com/spectrumwise_official/" target="_blank"></a>
+              <a class="social_media_linkedin" href="https://www.linkedin.com/company/spectrumwise-ltd/" target="_blank"></a>
+              <a class="social_media_facebook" href="https://www.facebook.com/profile.php?id=100092286157954" target="_blank"></a>
+
+            </div>
+          </div>
+        </div>
+        <p class="copyright">© 2023 SpectrumWise Ltd. All right reserved.</p>
+      </footer>
+    </div>
+      
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="scrypts/change_color.js"></script>
+      <script src="scrypts/style_menu.js"></script>
+      <script src="scrypts/filter_scrypt.js"></script>
+      <script src="scrypts/see_more.js"></script>
+      
+      
+    
+</body>
+</html>
