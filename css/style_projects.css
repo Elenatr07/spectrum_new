@@ -321,6 +321,7 @@
   .card_data,
   .card_data_black {
     margin-top: 209px;
+    font-size: 13px;
   }
 
   .card_name,
@@ -357,6 +358,8 @@
   .card_name,
   .card_name_black {
     margin-top: 190px;
+    font-size: 15px;
+    letter-spacing: 0.1em;
   }
 }
 @media(max-width: 410px) {
