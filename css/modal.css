@@ -143,11 +143,25 @@
   }
 
   @media(max-width: 1300px) {
-    .modal1_img_1, .modal1_img_2 {
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2,
+    .modal_img_1 {
       max-width: 1000px;
       height: 750px;
     }
-    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
       max-width: 1000px;
       height: 1000px;
     }
@@ -163,11 +177,24 @@
   }
 
   @media(max-width: 1105px) {
-    .modal1_img_1, .modal1_img_2 {
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
       max-width: 900px;
       height: 675px;
     }
-    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
       max-width: 900px;
       height: 900px;
     }
@@ -183,11 +210,24 @@
   }
   
   @media(max-width: 1000px) {
-    .modal1_img_1, .modal1_img_2 {
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2, 
+    .modal_img_1,
+    .modal_img_2 {
       max-width: 800px;
       height: 600px;
     }
-    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
       max-width: 800px;
       height: 800px;
     }
@@ -203,11 +243,24 @@
   }
    
   @media(max-width: 950px) {
-    .modal1_img_1, .modal1_img_2 {
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
       max-width: 600px;
       height: 450px;
     }
-    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_3 {
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_3, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
       max-width: 600px;
       height: 600px;
     }
@@ -223,18 +276,31 @@
   }
 
   @media(max-width: 767px) {
-    .modal1_img_1, .modal1_img_2 {
-      max-width: 500px;
-      height: 375px;
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
+      max-width: 484px;
+      height: 363px;
     }
-    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
-      max-width: 500px;
-      height: 500px;
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
+      max-width: 484px;
+      height: 484px;
     }
 
     .modal5_img_1 {
-      max-width: 500px;
-      height: 443px;
+      max-width: 484px;
+      height: 429px;
     }
 
     .modal__dialog {
@@ -249,18 +315,31 @@
   }
 
   @media(max-width: 600px) {
-    .modal1_img_1, .modal1_img_2 {
-      max-width: 354px;
-      height: 265px;
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
+      max-width: 348px;
+      height: 261px;
     }
-    .modal1_img_3, .modal1_img_4, .modal5_img_2, .modal5_img_3, .modal5_img_4 {
-      max-width: 354px;
-      height: 354px;
+    .modal1_img_3, 
+    .modal1_img_4, 
+    .modal5_img_2, 
+    .modal5_img_3, 
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
+      max-width: 348px;
+      height: 348px;
     }
 
     .modal5_img_1 {
-      max-width: 354px;
-      height: 314px;
+      max-width: 348px;
+      height: 309px;
     }
 
     .modal__dialog {
@@ -280,22 +359,30 @@
 
   @media(max-width: 424px) {
     .modal1_img_1, 
-    .modal1_img_2 {
-      max-width: 320px;
-      height: 240px;
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
+      max-width: 307px;
+      height: 230px;
     }
     .modal1_img_3, 
     .modal1_img_4, 
     .modal5_img_2, 
     .modal5_img_3, 
-    .modal5_img_4 {
-      max-width: 320px;
-      height: 240px;
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
+      max-width: 307px;
+      height: 307px;
     }
 
     .modal5_img_1 {
       max-width: 320px;
-      height: 283px;
+      height: 271px;
     }
 
     .modal__dialog {
@@ -312,22 +399,31 @@
   }
 
   @media(max-width: 389px) {
-    .modal1_img_1, .modal1_img_2 {
-      max-width: 300px;
-      height: 225px;
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
+      max-width: 289px;
+      height: 217px;
     }
     .modal1_img_3, 
     .modal1_img_4,
     .modal5_img_2,
     .modal1_img_3,
-    .modal5_img_4 {
-      max-width: 300px;
-      height: 225px;
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
+      max-width: 289px;
+      height: 289px;
     }
 
     .modal5_img_1 {
-      max-width: 300px;
-      height: 266px;
+      max-width: 289px;
+      height: 256px;
     }
 
     .modal__dialog {
@@ -337,7 +433,13 @@
   }
 
   @media(max-width: 360px) {
-    .modal1_img_1, .modal1_img_2 {
+    .modal1_img_1, 
+    .modal1_img_2, 
+    .modal2_img_1, 
+    .modal3_img_1, 
+    .modal3_img_2,
+    .modal_img_1,
+    .modal_img_2 {
       max-width: 270px;
       height: 202px;
     }
@@ -345,7 +447,10 @@
     .modal1_img_4,
     .modal5_img_2,
     .modal5_img_3,
-    .modal5_img_4 {
+    .modal5_img_4, 
+    .modal2_img_2,
+    .modal4_img_1,
+    .modal4_img_2 {
       max-width: 270px;
       height: 270px;
     }
