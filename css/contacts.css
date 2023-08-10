@@ -275,7 +275,7 @@ input[type=text]::placeholder, input[type=email]::placeholder, textarea::placeho
 
 input {
     width: 532px;
-    height: 47px;
+    height: 46px;
     background: var(--bg-dark) /* #070726*/;
     
     outline: none;
@@ -328,6 +328,7 @@ input {
     }
     input {
         width: 496px;
+        height: 46px;
     }
     .name {
         width: 500px;
@@ -378,6 +379,7 @@ input {
 
     .text_field {
         width: 380px;
+        height: 214px;
 
     }
   
@@ -438,10 +440,11 @@ input {
     }
     input {
         width: 468px;
+        height: 46px;
     }
     .text_field {
         width: 468px;
-        height: 215px;
+        height: 214px;
     }
     .contacts_block_img {
         display: none;
@@ -468,6 +471,7 @@ input {
     }
     input {
         width: 356px;
+       
     }
     .text_field {
         width: 356px;

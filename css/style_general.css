@@ -60,6 +60,7 @@ body {
 
 }
 
+
 .dark {
     --bg-dark: #070726;
     --text-white: #FFFFFF;
@@ -130,7 +131,7 @@ body {
     font-size: 17px;
     line-height: 21px;
     text-align: center;
-    height: 41px;
+    height: 42px;
     border-radius: 45px;
     background: var(--bg-dark-light)
         /* #0C0C2D*/
@@ -508,6 +509,13 @@ body {
     font-weight: 400;
     -webkit-text-fill-color: transparent;
 }
+.link_phone {
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    color: var(--text-white) /* #FFFFFF*/;;
+}
+
 
 
 
@@ -533,6 +541,12 @@ body {
     }
    
 
+}
+@media(max-width:900px) {
+    .link_phone{
+        pointer-events: auto;
+        cursor: pointer;
+    }
 }
 
 @media (max-width: 800px) {
