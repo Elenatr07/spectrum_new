@@ -250,6 +250,7 @@ body {
 }
 .projects_info_img:hover{
     transform: scale(1.1);
+    transition: all 0.5s linear;
 }
 
 .projects_info_title {
