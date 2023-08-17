@@ -141,10 +141,11 @@
 
 
 .design_cards_img {
-  margin-bottom: 60px;
+  
   width: 333px;
   height: 250px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 
 .block_marketing_design {
@@ -222,8 +223,23 @@
   align-items: center;
   display: flex;
   justify-content: center;
+
+
+flex-shrink: 0;
+background: 
+    linear-gradient(#FAF6F6 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(to right, rgba(247, 62, 148, 1), rgba(34, 220, 217, 1)) border-box;
+  color: #313149;
+  padding: 10px;
   border: 1px solid transparent;
-border-image-source: linear-gradient(118.39deg, #22DCD9 4%, #F73E94 96.49%);
+  border-radius: 30px;
+  color: #000;
+font-family: 'Montserrat';
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: 5.4px;
 
 
   
@@ -231,7 +247,7 @@ border-image-source: linear-gradient(118.39deg, #22DCD9 4%, #F73E94 96.49%);
 .front, .back {
 position: absolute;
   backface-visibility: hidden;
-  background-color: #fff;
+ 
 }
 .design_cards_img:hover .front {
   transform: rotateY(180deg);
