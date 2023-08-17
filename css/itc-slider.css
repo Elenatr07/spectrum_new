@@ -270,7 +270,7 @@ margin-bottom: 85px;
 }
 .slider_button {
 width: 174px;
-height: 42px;
+height: 40px;
 border-radius: 45px;
 background: var(--bg-dark-light);
 font-family: 'Montserrat';
@@ -294,7 +294,7 @@ left: 2px;
   z-index: -1;
   position: absolute;
   content: "";
-  width: 178px;
+  width: 179px;
   height: 45px;
   top: -4px;
   bottom: 3.5px;
