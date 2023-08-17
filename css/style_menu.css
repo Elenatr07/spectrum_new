@@ -257,6 +257,7 @@ ul {
 .link_lang {
    order: 2;
    color: var(--text-white)/* #FAF4F4*/;
+   display: none;
 }
 
 
@@ -366,7 +367,7 @@ ul {
      
    }
    .dropdown {
-      display: inline;
+      display: none;
    }
 
    
