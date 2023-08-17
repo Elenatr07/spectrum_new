@@ -131,7 +131,7 @@ body {
     font-size: 17px;
     line-height: 21px;
     text-align: center;
-    height: 42px;
+    height: 40px;
     border-radius: 45px;
     background: var(--bg-dark-light)
         /* #0C0C2D*/
@@ -149,8 +149,8 @@ body {
     position: absolute;
     content: "";
     width: 137px;
-    height: 44px;
-    top: -3px;
+    height: 45px;
+    top: -4px;
     left: -3px;
 }
 
@@ -247,6 +247,9 @@ body {
     width: 100%;
     max-width: 333px;
     height: 250px;
+}
+.projects_info_img:hover{
+    transform: scale(1.1);
 }
 
 .projects_info_title {

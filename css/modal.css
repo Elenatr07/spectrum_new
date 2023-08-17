@@ -60,6 +60,7 @@
   .modal__trigger--active {
     z-index: 10;
   }
+ 
   
   #modal__temp {
     will-change: transform, opacity;

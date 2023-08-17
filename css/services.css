@@ -88,8 +88,9 @@
     margin-top: 93px;
     margin-left:  auto;
     margin-right: auto;
-    margin-bottom: 3px;
+    margin-bottom: 60px;
     flex-wrap: wrap;
+    position: relative;
   }
   .design_cards_img img {
     background: url(../img_services/Rectangle.svg);
@@ -141,6 +142,9 @@
 
 .design_cards_img {
   margin-bottom: 60px;
+  width: 333px;
+  height: 250px;
+  margin: 0 auto;
 }
 
 .block_marketing_design {
@@ -205,6 +209,40 @@
   margin: 0 auto 0 auto;
   display: flex;
 }
+.back {
+  transform: rotateY(180deg);
+  width: 333px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 35px 60px 60px;
+  /* text-align: center; */
+  /* vertical-align: middle; */
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid transparent;
+border-image-source: linear-gradient(118.39deg, #22DCD9 4%, #F73E94 96.49%);
+
+
+  
+}
+.front, .back {
+position: absolute;
+  backface-visibility: hidden;
+  background-color: #fff;
+}
+.design_cards_img:hover .front {
+  transform: rotateY(180deg);
+  transition: all 1s ease-in-out;
+}
+.design_cards_img:hover .back {
+  transform: rotateY(360deg);
+  transition: all 1s ease-in-out;
+}
+
+
 
 @media (max-width: 1300px) {
   .general_slogan_projects {

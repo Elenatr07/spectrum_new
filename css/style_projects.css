@@ -102,6 +102,11 @@
   max-width: 450px;
   height: 338px;
   margin: 0 auto;
+ 
+}
+.card img:hover {
+  transform: scale(0.99);
+ 
 }
 
 .content {

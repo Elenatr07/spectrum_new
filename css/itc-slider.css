@@ -285,6 +285,7 @@ vertical-align: middle;
 display: table-cell;
 cursor: pointer;
 color: var(--text-white);
+left: 2px;
 
 }
 .slider_button::before {
@@ -294,8 +295,8 @@ color: var(--text-white);
   position: absolute;
   content: "";
   width: 178px;
-  height: 44px;
-  top: -3px;
+  height: 45px;
+  top: -4px;
   bottom: 3.5px;
   left: -4px;
   right: -3px;
