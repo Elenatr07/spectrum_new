@@ -25,7 +25,7 @@ $(function() {
 $(function (){
         const elements = $(".container_cards ._hidden");
         const more = $(".load_btn");
-        $(".card").slice(0, 6).show("slow");
+        $(".card").slice(0, 5).show("slow");
         if ($(elements).length !== 0) {
             more.show();
         } 

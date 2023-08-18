@@ -227,7 +227,7 @@
 
 flex-shrink: 0;
 background: 
-    linear-gradient(#FAF6F6 0 0) padding-box, /*this is your grey background*/
+    linear-gradient(#FFF 0 0) padding-box, /*this is your grey background*/
     linear-gradient(to right, rgba(247, 62, 148, 1), rgba(34, 220, 217, 1)) border-box;
   color: #313149;
   padding: 10px;

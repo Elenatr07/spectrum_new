@@ -142,9 +142,9 @@
   width: 134px;
   height: 42px;
   border-radius: 45px;
-  background: var(--bg-dark-light)
+  background: var(--bg-dark-light);
     /* #0C0C2D*/
-  ;
+  
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
@@ -156,9 +156,7 @@
   vertical-align: middle;
   display: table-cell;
   cursor: pointer;
-  color: var(--text-white)
-    /* #FFFFFF*/
-  ;
+  color: var(--text-white)  /* #FFFFFF*/;
   padding: 9px 21px;
 
 }
