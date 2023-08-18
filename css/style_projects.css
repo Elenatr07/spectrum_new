@@ -106,7 +106,7 @@
 }
 .card img:hover {
   background: 
-  linear-gradient(to right,rgba(34, 220, 217, 1), rgba(247, 62, 148, 1)) border-box;
+  linear-gradient(to right, rgba(247, 62, 148, 1), rgba(34, 220, 217, 1)) border-box;
    border: 5px solid transparent;
    border-radius: 30px;
    
