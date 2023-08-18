@@ -138,7 +138,14 @@
     height: 1063px;
   }
 
-  .modal5_img_2, .modal5_img_3, .modal5_img_4 {
+  .modal5_img_2, 
+  .modal5_img_3, 
+  .modal5_img_4, 
+  .madal8_img_2, 
+  .modal8_img_3,
+  .modal9_img_1,
+  .modal9_img_2,
+  .modal9_img_3 {
     max-width: 1200px;
     height: 1200px;
   }
@@ -187,7 +194,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2, 
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 1000px;
       height: 1000px;
     }
@@ -244,7 +256,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2, 
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 900px;
       height: 900px;
     }
@@ -301,7 +318,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2, 
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 800px;
       height: 800px;
     }
@@ -358,7 +380,12 @@
     .modal5_img_3, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2,
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 600px;
       height: 600px;
     }
@@ -415,7 +442,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2,
+     .modal8_img_3,
+     .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 484px;
       height: 484px;
     }
@@ -478,7 +510,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2,
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 348px;
       height: 348px;
     }
@@ -544,7 +581,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2, 
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 307px;
       height: 307px;
     }
@@ -609,7 +651,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2, 
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 289px;
       height: 289px;
     }
@@ -667,7 +714,12 @@
     .modal5_img_4, 
     .modal2_img_2,
     .modal4_img_1,
-    .modal4_img_2 {
+    .modal4_img_2,
+    .madal8_img_2, 
+    .modal8_img_3,
+    .modal9_img_1,
+    .modal9_img_2,
+    .modal9_img_3 {
       max-width: 270px;
       height: 270px;
     }

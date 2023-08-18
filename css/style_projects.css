@@ -125,12 +125,9 @@
 }
 
 ._hidden {
-  flex-wrap: wrap;
-  padding-left: 0;
-  justify-content: center;
-  padding-bottom: 70px;
+
   display: none;
-transition: 17s;
+  transition: 17s;
 }
 
 .button {
