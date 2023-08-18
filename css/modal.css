@@ -154,6 +154,19 @@
     max-width: 1200px;
     height: 1081px;
   }
+  .modal7_img_1 {
+    max-width: 1200px;
+    height: 800px;
+  }
+  .modal7_img_2 {
+    max-width: 1200px;
+    height: 763px;
+  }
+  .modal8_img_1 {
+    max-width: 1200px;
+    height: 1191px;
+  }
+
 
   @media(max-width: 1300px) {
     .modal1_img_1, 
@@ -194,6 +207,18 @@
     .modal6_img_3 {
       max-width: 1000px;
       height: 901px;
+    }
+    .modal7_img_1 {
+      max-width: 1000px;
+      height: 667px;
+    }
+    .modal7_img_2 {
+      max-width: 1000px;
+      height: 673px;
+    }
+    .modal8_img_1 {
+      max-width: 1000px;
+      height: 993px;
     }
 
     .modal__dialog {
@@ -240,6 +265,18 @@
       max-width: 900px;
       height: 811px;
     }
+    .modal7_img_1 {
+      max-width: 900px;
+      height: 600px;
+    }
+    .modal7_img_2 {
+      max-width:900px;
+      height: 572px;
+    }
+    .modal8_img_1 {
+      max-width: 900px;
+      height: 893px;
+    }
 
     .modal__dialog {
       max-width: 1080px;
@@ -284,6 +321,18 @@
     .modal6_img_3 {
       max-width: 800px;
       height: 721px;
+    }
+    .modal7_img_1 {
+      max-width: 800px;
+      height: 533px;
+    }
+    .modal7_img_2 {
+      max-width: 800px;
+      height: 509px;
+    }
+    .modal8_img_1 {
+      max-width: 800px;
+      height: 794px;
     }
 
     .modal__dialog {
@@ -330,6 +379,18 @@
       max-width: 600px;
       height: 541px;
     }
+    .modal7_img_1 {
+      max-width: 600px;
+      height: 400px;
+    }
+    .modal7_img_2 {
+      max-width: 600px;
+      height: 382px;
+    }
+    .modal8_img_1 {
+      max-width: 600px;
+      height: 596px;
+    }
 
     .modal__dialog {
       max-width: 720px;
@@ -374,6 +435,18 @@
     .modal6_img_3 {
       max-width: 484px;
       height: 436px;
+    }
+    .modal7_img_1 {
+      max-width: 484px;
+      height: 323px;
+    }
+    .modal7_img_2 {
+      max-width: 484px;
+      height: 308px;
+    }
+    .modal8_img_1 {
+      max-width: 484px;
+      height: 480px;
     }
 
     .modal__dialog {
@@ -426,7 +499,18 @@
       max-width: 348px;
       height: 313px;
     }
-
+    .modal7_img_1 {
+      max-width: 348px;
+      height: 232px;
+    }
+    .modal7_img_2 {
+      max-width: 348px;
+      height: 221px;
+    }
+    .modal8_img_1 {
+      max-width: 3480px;
+      height: 345px;
+    }
     .modal__dialog {
       max-width: 425px;
     }
@@ -481,6 +565,18 @@
       max-width: 307px;
       height: 276px;
     }
+    .modal7_img_1 {
+      max-width: 307px;
+      height: 205px;
+    }
+    .modal7_img_2 {
+      max-width: 307px;
+      height: 195px;
+    }
+    .modal8_img_1 {
+      max-width: 307px;
+      height: 305px;
+    }
 
     .modal__dialog {
       max-width: 384px;
@@ -534,6 +630,18 @@
       max-width: 289px;
       height: 260px;
     }
+    .modal7_img_1 {
+      max-width: 289px;
+      height: 193px;
+    }
+    .modal7_img_2 {
+      max-width: 289px;
+      height: 184px;
+    }
+    .modal8_img_1 {
+      max-width: 289px;
+      height: 287px;
+    }
 
     .modal__dialog {
       max-width: 360px;
@@ -579,6 +687,14 @@
     .modal6_img_3 {
       max-width: 270px;
       height: 243px;
+    }
+    .modal7_img_1 {
+      max-width: 270px;
+      height: 180px;
+    }
+    .modal8_img_1 {
+      max-width: 270px;
+      height: 268px;
     }
 
        
