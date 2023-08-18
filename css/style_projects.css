@@ -114,6 +114,17 @@
  
 }
 
+.card:target { /* i.e when this element is navigated to (from a link) */
+  animation-name: ref-animation;
+  animation-duration: 10s;
+}
+@keyframes ref-animation {
+  from { filter: drop-shadow(0 0 20px rgba(34, 220, 217, 1)) }  /* light yellow */
+  to   {  filter: none}  /* assuming original was transparent */
+}
+.card:focus {
+  outline: none;
+}
 .content {
   width: 100%;
   height: 100%;
@@ -127,7 +138,7 @@
 ._hidden {
 
   display: none;
-  transition: 17s;
+  transition: 17s ease-in-out;
 }
 
 .button {
@@ -231,7 +242,21 @@
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
+@keyframes hide {
+  0% {
+    visibility: visible;
+    height: 200px;
+  }
 
+  100% {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    max-width: 0;
+    font-size: 0;
+    margin: 0;
+  }
+}
 .modal_content_title {
   color: var(--text-white);
   font-size: 47px;
@@ -253,21 +278,7 @@
   margin-bottom: 92px;
 }
 
-@keyframes hide {
-  0% {
-    visibility: visible;
-    height: 200px;
-  }
 
-  100% {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-    max-width: 0;
-    font-size: 0;
-    margin: 0;
-  }
-}
 
 @media(max-width:1300px) {
   .general_slogan_projects {
