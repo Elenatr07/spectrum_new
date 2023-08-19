@@ -1,9 +1,19 @@
+
+
+.general_projects_block {
+    width: 100%;
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
 .slogan_contacts {
     width: 396px;
 }
 .general_slogan_projects {
     max-width: 600px;
-    margin: 0 0 0 168px;
+    margin: 0 100px 0 168px;
 }
 
 .contacts_header {
@@ -307,6 +317,12 @@ input {
     border: 2px solid transparent; /*2*/
     background: linear-gradient(75deg, rgba(34, 220, 217, 1), rgba(247, 62, 148, 1)) border-box;
 }
+.contacts_illustration {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+}
 
 
  
@@ -415,6 +431,9 @@ input {
         margin: 0 auto;
         background-position: center;
     }
+    .general_projects_block {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 850px) {
@@ -488,7 +507,29 @@ input {
     .name {
         width: 360px;
     }
+    .general_projects_block {
+        margin: 0 auto;
+    }
 }
+@media(max-width:600px)  {
+    .contacts_illustration img {
+        width: 450px;
+        height: 450px;
+    }
+}
+@media(max-width:500px)  {
+    .contacts_illustration img {
+        width: 400px;
+        height: 400px;
+    }
+}
+@media(max-width:450px)  {
+    .contacts_illustration img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
 
 @media (max-width: 424px) {
     form {
@@ -520,6 +561,13 @@ input {
         width: 370px;
     }
   }
+  @media(max-width:400px)  {
+    .contacts_illustration img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
 
 @media (max-width: 375px) {
     .general_slogan_projects {
@@ -545,6 +593,10 @@ input {
     .name {
         width: 260px;
     }
+    .contacts_illustration img {
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media(max-width:350px) {
@@ -554,4 +606,8 @@ input {
       .slogan_contacts {
         width: 300px ;
       }
+      .contacts_illustration img {
+        width: 280px;
+        height: 280px;
+    }
 }

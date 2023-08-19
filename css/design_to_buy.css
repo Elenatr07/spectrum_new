@@ -1,13 +1,10 @@
 
-  .design_to_buy {
-    max-width: 680px;
-    
-  }
-
- .to_buy_option {
-    height: 462px;
- }
-  
+.to_buy_option {
+  height: 100%;
+}
+.design_to_buy {
+  max-width: 661px;
+}
   .load_btn_how {
     margin-left: 168px;
     margin-bottom: 65px;
@@ -54,7 +51,7 @@
   
   .button {
     max-width: 1440px;
-    margin: 0 auto 0 auto;
+    margin: 87px auto 0 auto;
     display: flex;
   }
   .step {
@@ -119,6 +116,13 @@
   
   .filter_option {
     width: 600px;
+    height: 100%;
+  }
+  .to_buy_illustration {
+    max-width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 36px;
   }
 
   @media(max-width:1300px) {
@@ -126,6 +130,19 @@
         margin-left: 75px;
     }
   }
+  @media(max-width:1200px) {
+    .design_to_buy {
+      max-width: 519px;
+  }
+  
+  .button_projects {
+     padding: 9px 9px;
+    width: 147px;
+  }
+  .button_projects::before {
+    width: 151px;
+  }
+}
 
   @media(max-width: 1056px) {
     .step {
@@ -198,8 +215,18 @@
     .filter_option {
         width: 395px;
     }
-    .to_buy_option {
-        height: 551px;
+ 
+  }
+  @media(max-width:500px) {
+    .to_buy_illustration img {
+      width: 350px;
+      height: 276px;
+    }
+  }
+  @media(max-width:400px) {
+    .to_buy_illustration img {
+      width: 300px;
+      height: 237px;
     }
   }
   @media(max-width:375px) {
@@ -209,6 +236,24 @@
     .filter_option {
         width: 370px;
     }
+   
+      .to_buy_illustration img {
+        width: 280px;
+        height: 221px;
+      }
+    }
+   @media (max-width: 365px)  {
+    .button_projects {
+      width: 125px;
+      font-weight: 200;
+      font-size: 15px;
+      padding: 7px 7px;
+    }
+    .button_projects::before {
+      width: 128px;
+      right: -3px;
+  }
+  }
 
     @media(max-width:364px) {
         .design_to_buy {
@@ -218,5 +263,5 @@
             width: 320px;
         }
     }
-  }
+  
 
