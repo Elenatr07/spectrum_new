@@ -19,7 +19,7 @@ li {
     margin: 0 168px 0 168px;
 }
 .terms_text {
-    color: #030303;
+    color: var(--text-white);
     font-family: 'Montserrat';
     font-size: 15px;
     font-style: normal;
@@ -27,7 +27,7 @@ li {
     line-height: 30px; /* 200% */
 }
 .terms_chapter {
-    color: #030303;
+    color:var(--text-white);
     font-family: 'Montserrat';
     font-size: 15px;
     font-style: normal;
@@ -37,7 +37,7 @@ li {
     margin-top: 30px;
 }
 .terms_item li {
-    color: #030303;
+    color: var(--text-white);
     font-family: 'Montserrat';
     font-size: 15px;
     font-style: normal;
