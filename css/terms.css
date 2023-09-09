@@ -16,7 +16,7 @@ li {
 
 .chapter_content_text{
     max-width: 1440px;
-    margin: 0 168px 0 168px;
+    margin: 0 auto 0 auto;
 }
 .terms_text {
     color: var(--text-white);
