@@ -271,11 +271,22 @@
   font-size: 25px;
   font-family: Montserrat;
   font-weight: 300;
-  margin-bottom: 118px;
+  margin-bottom: 18px;
 }
 
 .modal_info {
   margin-bottom: 92px;
+}
+.modal_content_text {
+  font-family: 'Montserrat';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 113px;
+
+
 }
 
 

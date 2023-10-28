@@ -154,6 +154,9 @@
     max-width: 1200px;
     height: 1200px;
   }
+  .modal_content_text {
+    max-width: 1200px;
+  }
   .modal6_img_1 {
     max-width: 1200px;
     height: 1000px;
@@ -219,6 +222,9 @@
     .modal14_img_1 {
       max-width: 1000px;
       height: 1000px;
+    }
+    .modal_content_text{
+      max-width: 1000px;
     }
 
     .modal5_img_1 {
@@ -328,6 +334,9 @@
       max-width: 900px;
       height: 642px;
     }
+    .modal_content_text{
+      max-width: 900px;
+    }
 
     .modal__dialog {
       max-width: 1080px;
@@ -401,6 +410,9 @@
     .modal12_img_1 {
       max-width: 800px;
       height: 571px;
+    }
+    .modal_content_text{
+      max-width: 800px;
     }
 
     .modal__dialog {
@@ -476,6 +488,9 @@
       max-width: 600px;
       height: 428px;
     }
+    .modal_content_text{
+      max-width: 600px;
+    }
 
     .modal__dialog {
       max-width: 720px;
@@ -549,6 +564,9 @@
     .modal12_img_1 {
       max-width: 484px;
       height: 345px;
+    }
+    .modal_content_text{
+      max-width: 484px;
     }
 
     .modal__dialog {
@@ -629,6 +647,10 @@
     .modal12_img_1 {
       max-width: 348px;
       height: 248px;
+    }
+    .modal_content_text {
+      max-width: 348px;
+      font-size: 15px;
     }
     .modal__dialog {
       max-width: 425px;
@@ -713,6 +735,11 @@
       max-width: 307px;
       height: 219px;
     }
+    .modal_content_text{
+      max-width: 307px;
+      font-size: 13px;
+      margin-bottom: 60px;
+    }
 
     .modal__dialog {
       max-width: 384px;
@@ -795,6 +822,9 @@
       max-width: 289px;
       height: 206px;
     }
+    .modal_content_text {
+      max-width: 289px;
+    }
 
     .modal__dialog {
       max-width: 360px;
@@ -865,6 +895,9 @@
     .modal12_img_1 {
       max-width: 270px;
       height: 193px;
+    }
+    .modal_content_text{
+      max-width: 270px;
     }
 
        
